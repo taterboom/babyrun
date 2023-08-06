@@ -1,0 +1,82 @@
+[gd_scene load_steps=12 format=3 uid="uid://c0scx363e3xvg"]
+
+[ext_resource type="Script" path="res://demo_3d/Player.gd" id="1_nlnkn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sjhx2"]
+albedo_color = Color(0.156863, 0.745098, 0.627451, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_a7tc4"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_j1ioc"]
+radius = 1.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_244jp"]
+albedo_color = Color(0.8, 0.156863, 0.196078, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_s6u4e"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e8nlj"]
+albedo_color = Color(0.211765, 0.223529, 0.247059, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_fwylq"]
+size = Vector3(0.25, 0.5, 0.25)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yntut"]
+albedo_color = Color(0.196078, 0.745098, 0.156863, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_udmyt"]
+albedo_color = Color(0.858824, 0.545098, 0.831373, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_nxeyl"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_nlnkn")
+ANGULAR_SPEED = 4.71239
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2, 2.08165e-12)
+material_override = SubResource("StandardMaterial3D_sjhx2")
+mesh = SubResource("CapsuleMesh_a7tc4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 1, 2.08165e-12)
+shape = SubResource("CylinderShape3D_j1ioc")
+
+[node name="Left" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 2.08165e-12, 2.08165e-12)
+
+[node name="RayCast3D" type="RayCast3D" parent="Left"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 0.5, 2.08165e-12)
+collision_mask = 2
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Left"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 0.5, 2.08165e-12)
+material_override = SubResource("StandardMaterial3D_244jp")
+mesh = SubResource("SphereMesh_s6u4e")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Left"]
+transform = Transform3D(0.707107, 0.707107, 3.48787e-16, -0.707107, 0.707107, -3.48787e-16, -4.93259e-16, 1.60554e-24, 1, 0.478, 1.02, 2.08165e-12)
+material_override = SubResource("StandardMaterial3D_e8nlj")
+mesh = SubResource("BoxMesh_fwylq")
+
+[node name="Right" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2.08165e-12, 2.08165e-12)
+
+[node name="RayCast3D" type="RayCast3D" parent="Right"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 0.5, 2.08165e-12)
+collision_mask = 2
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Right"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 0.5, 2.08165e-12)
+material_override = SubResource("StandardMaterial3D_yntut")
+mesh = SubResource("SphereMesh_s6u4e")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Right"]
+transform = Transform3D(0.707107, -0.707107, 3.48787e-16, 0.707107, 0.707107, -3.48787e-16, 1.60554e-24, 4.93259e-16, 1, -0.478, 1.02, 2.08165e-12)
+material_override = SubResource("StandardMaterial3D_e8nlj")
+mesh = SubResource("BoxMesh_fwylq")
+
+[node name="Forward" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.2, 0, -3.04919e-24, -3.04919e-24, -8.74228e-09, -0.2, 0, 0.2, -8.74228e-09, 2.08165e-12, 2, -0.682981)
+material_override = SubResource("StandardMaterial3D_udmyt")
+mesh = SubResource("CylinderMesh_nxeyl")

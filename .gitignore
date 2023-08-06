@@ -1,0 +1,14 @@
+.DS_Store
+
+# Godot 4+ specific ignores
+.godot/
+*.exe
+*.pck
+*.cfg
+*.import
+
+demo_3d/Models/DAE format
+demo_3d/Models/FBX format
+demo_3d/Models/GLTF format
+demo_3d/Models/OBJ format
+demo_3d/Models/STL format
