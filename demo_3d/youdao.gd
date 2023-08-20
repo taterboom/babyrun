@@ -11,20 +11,26 @@ extends CharacterBody3D
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
-@export var ANGULAR_SPEED := 1.2 * PI
+# there are some unused frames at the end of the animation
+const END_CUT = 0.0
+const ANIMATION_SPEED_SCALE = 1.5
+const MAX_JUMP_PREPARATION_DURATION = 1.0 
+const MIN_JUMP_PREPARATION_DURATION = 0.4
+@export var angular_speed := 1.2 * PI
+@export var jump_impulse_up := 5
+@export var jump_impulse_forward := 3
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
-enum State { LEFT, RIGHT, IDLE }
+enum State { IDLE, LEFT, RIGHT, JUMP_PREPARE, JUMP_PREPARE_MAX, JUMP }
 var state := State.IDLE
-var left_foot_on_ground := true
+var prev_state := State.IDLE
 var is_game_over := false
-var prev_state: State = State.IDLE
 var animation_left_length := 0.0
 var animation_right_length := 0.0
 var moving_length := 0.0
-# There are some unused frames at the end of the animation
-const end_cut := 0.35
-var animation_speed_scale := 1.5
+var is_ready := false
+var jump_preparation_duration := 0.0
 
+var success_label: Label
 
 func _ready():
 	# https://docs.godotengine.org/en/stable/classes/class_raycast3d.html#description
@@ -32,20 +38,30 @@ func _ready():
 	# Updates the collision information for the ray. Use this method to update the collision information immediately instead of waiting for the next _physics_process call, for example if the ray or its parent has changed state.
 	left_foot_ray_cast.force_raycast_update()
 	right_foot_ray_cast.force_raycast_update()
-	collision_shape.disabled = true
+#	collision_shape.disabled = true
 	animation_tree.active = true
-	animation_tree.set("parameters/TimeScale/scale", animation_speed_scale)
-	animation_left_length = (animation_player.get_animation('lift_left').length - end_cut) / animation_speed_scale
-	animation_right_length = (animation_player.get_animation('lift_right').length - end_cut) / animation_speed_scale
+	animation_tree.set("parameters/TimeScale/scale", ANIMATION_SPEED_SCALE)
+	animation_left_length = (animation_player.get_animation('lift_left').length - END_CUT) / ANIMATION_SPEED_SCALE
+	animation_right_length = (animation_player.get_animation('lift_right').length - END_CUT) / ANIMATION_SPEED_SCALE
+	
+	var destination: Area3D = get_tree().get_first_node_in_group('Destination')
+	destination.connect('body_entered', _on_destination_entered)
+	success_label = get_tree().get_first_node_in_group('SuccessLabel')
+	
+	# Collision between GridMap and RayCast not work at first
+	# https://github.com/godotengine/godot/issues/76349
+	await get_tree().process_frame
+	is_ready = true
 
 
 func _physics_process(delta):
-	# Add the gravity.
-	if is_game_over:
-		velocity.y -= gravity * delta
 
-	# move(delta)
-	rock(delta)
+	if is_ready:
+		# move(delta)
+		# Add the gravity.
+		if is_game_over || !is_on_floor():
+			velocity.y -= gravity * delta
+		rock(delta)
 
 	
 func move(delta: float):
@@ -70,27 +86,52 @@ func move(delta: float):
 	move_and_slide()
 
 func rock(delta: float):
-	if Input.is_action_pressed("left"):
+	if state != State.JUMP && Input.is_action_pressed("left") && Input.is_action_pressed("right"):
+		if jump_preparation_duration >= MAX_JUMP_PREPARATION_DURATION:
+			state = State.JUMP_PREPARE_MAX
+		else:
+			state = State.JUMP_PREPARE
+	elif jump_preparation_duration > MIN_JUMP_PREPARATION_DURATION:
+		state = State.JUMP 
+	elif Input.is_action_pressed("left"):
 		state = State.LEFT
 	elif Input.is_action_pressed("right"):
 		state = State.RIGHT
 	else:
 		state = State.IDLE
-		
-	if prev_state == state:
-		moving_length += delta
-	else:
-		moving_length = 0
-	
+
 	_update_animation()
 
-	# Rotate base on state
-	if state == State.LEFT:
+	var direction := -1 if Input.is_action_pressed("reverse_direction") else 1
+	
+	if state == State.JUMP_PREPARE:
+		if prev_state == state:
+			jump_preparation_duration += delta
+			if jump_preparation_duration >= MAX_JUMP_PREPARATION_DURATION:
+				jump_preparation_duration = MAX_JUMP_PREPARATION_DURATION
+		else:
+			jump_preparation_duration = delta
+	elif state == State.JUMP_PREPARE_MAX:
+		pass
+	elif state == State.JUMP:
+		if prev_state == state:
+			if is_on_floor():
+				velocity = Vector3.ZERO
+				jump_preparation_duration = 0
+				animation_tree.set("parameters/OneShot_Landing/request", AnimationNodeOneShot.ONE_SHOT_REQUEST_FIRE)
+		else:
+			velocity.y = jump_impulse_up * jump_preparation_duration
+			velocity.z = -jump_impulse_forward * jump_preparation_duration
+	elif state == State.LEFT:
+		if prev_state == state:
+			moving_length += delta
+		else:
+			moving_length = 0
 		if moving_length >= animation_left_length:
 			return
 		# 左脚围绕右脚转动
 		# 这个 tick 下的旋转角度
-		var angle = ANGULAR_SPEED * delta
+		var angle = angular_speed * delta * direction
 		# 本地坐标系下
 		# 右脚到原点的向量
 		var originBasedRight := Vector3.ZERO - right_foot.position
@@ -102,14 +143,16 @@ func rock(delta: float):
 		var globalDeltaPosition = transform.basis * deltaPosition
 		position += globalDeltaPosition
 		rotate_y(-angle)
-		if not _is_foot_on_floor():
-			_game_over()
 	elif state == State.RIGHT:
+		if prev_state == state:
+			moving_length += delta
+		else:
+			moving_length = 0
 		if moving_length >= animation_right_length:
 			return
 		# 右脚围绕左脚转动
 		# 这个 tick 下的旋转角度
-		var angle = ANGULAR_SPEED * delta
+		var angle = angular_speed * delta * direction
 		# 本地坐标系下
 		# 左脚到原点的向量
 		var originBasedLeft := Vector3.ZERO - left_foot.position
@@ -129,19 +172,13 @@ func rock(delta: float):
 		_game_over()
 	
 func _update_animation():
-	if state == State.LEFT:
-		animation_tree.set("parameters/StateMachine/conditions/idle", false)
-		animation_tree.set("parameters/StateMachine/conditions/moving_left", true)
-		animation_tree.set("parameters/StateMachine/conditions/moving_right", false)
-	elif state == State.RIGHT:
-		animation_tree.set("parameters/StateMachine/conditions/idle", false)
-		animation_tree.set("parameters/StateMachine/conditions/moving_left", false)
-		animation_tree.set("parameters/StateMachine/conditions/moving_right", true)		
-	else:
-		animation_tree.set("parameters/StateMachine/conditions/idle", true)
-		animation_tree.set("parameters/StateMachine/conditions/moving_left", false)
-		animation_tree.set("parameters/StateMachine/conditions/moving_right", false)		
-	
+	animation_tree.set("parameters/StateMachine/conditions/idle", state == State.IDLE)
+	animation_tree.set("parameters/StateMachine/conditions/moving_left", state == State.LEFT)
+	animation_tree.set("parameters/StateMachine/conditions/moving_right", state == State.RIGHT)
+	animation_tree.set("parameters/StateMachine/conditions/jump_prepare", state == State.JUMP_PREPARE)
+	animation_tree.set("parameters/StateMachine/conditions/shake", state == State.JUMP_PREPARE_MAX)
+	animation_tree.set("parameters/StateMachine/conditions/jump", state == State.JUMP)
+
 	
 func _is_foot_on_floor():
 	if state == State.LEFT:
@@ -154,4 +191,11 @@ func _is_foot_on_floor():
 func _game_over():
 	print('1game over')
 	is_game_over = true
-#	collision_shape.disabled = true
+	collision_shape.disabled = true
+	
+
+func _on_destination_entered(body: Node3D):
+	if body == self:
+		print('成功啦！ 🚀🚀🚀')
+		success_label.visible = true
+	

@@ -1,0 +1,510 @@
+[gd_scene load_steps=118 format=3 uid="uid://xunelw4k64m1"]
+
+[ext_resource type="PackedScene" uid="uid://cm865tfbvk4mn" path="res://demo_3d/Models/DAE format/arrow.dae" id="1_8wlsd"]
+[ext_resource type="PackedScene" uid="uid://bs4eyyv0vtb0n" path="res://demo_3d/Models/DAE format/arrows.dae" id="2_tscaa"]
+[ext_resource type="PackedScene" uid="uid://djnbq0q8d51wu" path="res://demo_3d/Models/DAE format/barrel.dae" id="3_6vthc"]
+[ext_resource type="PackedScene" uid="uid://cn127rvbevfij" path="res://demo_3d/Models/DAE format/block.dae" id="4_ib2ki"]
+[ext_resource type="PackedScene" uid="uid://c5cn41yw16mvj" path="res://demo_3d/Models/DAE format/blockCliff.dae" id="5_qm0no"]
+[ext_resource type="PackedScene" uid="uid://by7di7108nsq7" path="res://demo_3d/Models/DAE format/blockCliffCorner.dae" id="6_jrsxi"]
+[ext_resource type="PackedScene" uid="uid://bya7f2v5tngin" path="res://demo_3d/Models/DAE format/blockCornerLarge.dae" id="7_44sfb"]
+[ext_resource type="PackedScene" uid="uid://dlegq512po20r" path="res://demo_3d/Models/DAE format/blockCornerSmall.dae" id="8_kdaxg"]
+[ext_resource type="PackedScene" uid="uid://c3ocs1ew0ak8u" path="res://demo_3d/Models/DAE format/blockCurve.dae" id="9_0ewuc"]
+[ext_resource type="PackedScene" uid="uid://c4brm11nu47ns" path="res://demo_3d/Models/DAE format/blockCurveHalf.dae" id="10_tpewg"]
+[ext_resource type="PackedScene" uid="uid://bmhamr5l3e2s6" path="res://demo_3d/Models/DAE format/blockCurveLow.dae" id="11_y80e0"]
+[ext_resource type="PackedScene" uid="uid://d3wnhiqtc1gsp" path="res://demo_3d/Models/DAE format/blockDirt.dae" id="12_irvwc"]
+[ext_resource type="PackedScene" uid="uid://b02rd2xtlv32x" path="res://demo_3d/Models/DAE format/blockDirtHalf.dae" id="13_iljnh"]
+[ext_resource type="PackedScene" uid="uid://d0mt1ufh30p5f" path="res://demo_3d/Models/DAE format/blockDirtRamp.dae" id="14_wgdra"]
+[ext_resource type="PackedScene" uid="uid://b1qhsy7gja3ja" path="res://demo_3d/Models/DAE format/blockDirtRampHalf.dae" id="15_1ycep"]
+[ext_resource type="PackedScene" uid="uid://d2i1ul8wws8qt" path="res://demo_3d/Models/DAE format/blockEnd.dae" id="16_0n4gu"]
+[ext_resource type="PackedScene" uid="uid://46ouox5qh68q" path="res://demo_3d/Models/DAE format/blockHalf.dae" id="17_5a17p"]
+[ext_resource type="PackedScene" uid="uid://cpqys82ua1c0m" path="res://demo_3d/Models/DAE format/blockHexagon.dae" id="18_4cnry"]
+[ext_resource type="PackedScene" uid="uid://cg6tfttwtb66u" path="res://demo_3d/Models/DAE format/blockHexagonLow.dae" id="19_l6fds"]
+[ext_resource type="PackedScene" uid="uid://b0fwv6ms3h4sr" path="res://demo_3d/Models/DAE format/blockLarge.dae" id="20_owmvb"]
+[ext_resource type="PackedScene" uid="uid://bwa4ud5r5w63p" path="res://demo_3d/Models/DAE format/blockLevel.dae" id="21_3rbgf"]
+[ext_resource type="PackedScene" uid="uid://co2f20m0okcfs" path="res://demo_3d/Models/DAE format/blockLong.dae" id="22_lgity"]
+[ext_resource type="PackedScene" uid="uid://h5cd0oxxd68j" path="res://demo_3d/Models/DAE format/blockMoving.dae" id="23_af2tw"]
+[ext_resource type="PackedScene" uid="uid://dvtdrb8dljq8a" path="res://demo_3d/Models/DAE format/blockMovingBlue.dae" id="24_603nh"]
+[ext_resource type="PackedScene" uid="uid://bp6283ehly7j8" path="res://demo_3d/Models/DAE format/blockMovingLarge.dae" id="25_sl1rm"]
+[ext_resource type="PackedScene" uid="uid://dycievpwuox06" path="res://demo_3d/Models/DAE format/blockQuarter.dae" id="26_k1gwg"]
+[ext_resource type="PackedScene" uid="uid://baxh1bkhfbdjk" path="res://demo_3d/Models/DAE format/blockRounded.dae" id="27_vye22"]
+[ext_resource type="PackedScene" uid="uid://bb80rdd24d8li" path="res://demo_3d/Models/DAE format/blockRoundedLarge.dae" id="28_dpcu3"]
+[ext_resource type="PackedScene" uid="uid://c7b7cynp16hpf" path="res://demo_3d/Models/DAE format/blockRoundedLong.dae" id="29_qu6b2"]
+[ext_resource type="PackedScene" uid="uid://dmk8xaxp6csds" path="res://demo_3d/Models/DAE format/blockRoundedLowLong.dae" id="31_asoi5"]
+[ext_resource type="PackedScene" uid="uid://t774wu3l5cpq" path="res://demo_3d/Models/DAE format/blockSlope.dae" id="32_n3yjk"]
+[ext_resource type="PackedScene" uid="uid://cw8s6no7dnqgn" path="res://demo_3d/Models/DAE format/blockSlopeHalf.dae" id="33_4g3je"]
+[ext_resource type="PackedScene" uid="uid://bhjljb5xxifcm" path="res://demo_3d/Models/DAE format/blockSnow.dae" id="34_57c8o"]
+[ext_resource type="PackedScene" uid="uid://dice453iv4k4s" path="res://demo_3d/Models/DAE format/blockSnowCliff.dae" id="35_07pa6"]
+[ext_resource type="PackedScene" uid="uid://dsdwi7x0jj7hk" path="res://demo_3d/Models/DAE format/blockSnowCliffCorner.dae" id="36_j3oru"]
+[ext_resource type="PackedScene" uid="uid://bp4s08wo6pmx3" path="res://demo_3d/Models/DAE format/blockSnowCornerLarge.dae" id="37_g5sie"]
+[ext_resource type="PackedScene" uid="uid://dl37sklxe4hcn" path="res://demo_3d/Models/DAE format/blockSnowCornerSmall.dae" id="38_acat2"]
+[ext_resource type="PackedScene" uid="uid://cgd1p47ybe0p5" path="res://demo_3d/Models/DAE format/blockSnowCurve.dae" id="39_vabx3"]
+[ext_resource type="PackedScene" uid="uid://bry7qp74ynhni" path="res://demo_3d/Models/DAE format/blockSnowCurveHalf.dae" id="40_0te38"]
+[ext_resource type="PackedScene" uid="uid://dk83g4tkpca48" path="res://demo_3d/Models/DAE format/blockSnowCurveLow.dae" id="41_s7oeq"]
+[ext_resource type="PackedScene" uid="uid://dxh5pc06dpdsv" path="res://demo_3d/Models/DAE format/blockSnowEnd.dae" id="42_ug6n8"]
+[ext_resource type="PackedScene" uid="uid://bmpo8oj2q5en0" path="res://demo_3d/Models/DAE format/blockSnowHalf.dae" id="43_bg1pv"]
+[ext_resource type="PackedScene" uid="uid://c3ufjv8qm025c" path="res://demo_3d/Models/DAE format/blockSnowHexagon.dae" id="44_35aex"]
+[ext_resource type="PackedScene" uid="uid://cuiiwna7hvlup" path="res://demo_3d/Models/DAE format/blockSnowHexagonLow.dae" id="45_xuxse"]
+[ext_resource type="PackedScene" uid="uid://dof67odwrxejm" path="res://demo_3d/Models/DAE format/blockSnowLarge.dae" id="46_v61mv"]
+[ext_resource type="PackedScene" uid="uid://b6nicw2tjxsmb" path="res://demo_3d/Models/DAE format/blockSnowLevel.dae" id="47_x7kb1"]
+[ext_resource type="PackedScene" uid="uid://cpinij87xh4f7" path="res://demo_3d/Models/DAE format/blockSnowLong.dae" id="48_aclor"]
+[ext_resource type="PackedScene" uid="uid://cj62ncw8u4dnn" path="res://demo_3d/Models/DAE format/blockSnowQuarter.dae" id="49_u1cuc"]
+[ext_resource type="PackedScene" uid="uid://bjqsqk6mfpwtw" path="res://demo_3d/Models/DAE format/blockSnowRounded.dae" id="50_o0ga6"]
+[ext_resource type="PackedScene" uid="uid://dddn7vjv8vmsq" path="res://demo_3d/Models/DAE format/blockSnowRoundedLarge.dae" id="51_xvlpc"]
+[ext_resource type="PackedScene" uid="uid://bfh6phlowepdp" path="res://demo_3d/Models/DAE format/blockSnowRoundedLong.dae" id="52_1etn2"]
+[ext_resource type="PackedScene" uid="uid://bnenj7m6pfmm6" path="res://demo_3d/Models/DAE format/blockSnowRoundedLow.dae" id="53_lhax2"]
+[ext_resource type="PackedScene" uid="uid://ybp0apclhoeg" path="res://demo_3d/Models/DAE format/blockSnowRoundedLowLong.dae" id="54_slwcq"]
+[ext_resource type="PackedScene" uid="uid://b0pl8nfehxfxx" path="res://demo_3d/Models/DAE format/blockSnowSlope.dae" id="55_2oynn"]
+[ext_resource type="PackedScene" uid="uid://5nsbwjwpoadu" path="res://demo_3d/Models/DAE format/blockSnowSlopeHalf.dae" id="56_plajb"]
+[ext_resource type="PackedScene" uid="uid://bybqjkgs4qcsh" path="res://demo_3d/Models/DAE format/bomb.dae" id="57_hknm1"]
+[ext_resource type="PackedScene" uid="uid://c7bd7r7ccjow8" path="res://demo_3d/Models/DAE format/bridge.dae" id="58_i60f1"]
+[ext_resource type="PackedScene" uid="uid://csrn6ogmjmvh8" path="res://demo_3d/Models/DAE format/bridgeHalf.dae" id="59_6rhbc"]
+[ext_resource type="PackedScene" uid="uid://chnobk7wj8dyq" path="res://demo_3d/Models/DAE format/bridgeRamp.dae" id="60_hwi0t"]
+[ext_resource type="PackedScene" uid="uid://by0hg702n1ysu" path="res://demo_3d/Models/DAE format/buttonRound.dae" id="61_b8oap"]
+[ext_resource type="PackedScene" uid="uid://bwoj8oxt0ix5o" path="res://demo_3d/Models/DAE format/buttonSquare.dae" id="62_qwe3c"]
+[ext_resource type="PackedScene" uid="uid://bsfwhlyqd0cp3" path="res://demo_3d/Models/DAE format/chest.dae" id="63_ks4tk"]
+[ext_resource type="PackedScene" uid="uid://bjw6ws3susbau" path="res://demo_3d/Models/DAE format/coinBronze.dae" id="64_4ukm2"]
+[ext_resource type="PackedScene" uid="uid://dpu2jrjfakesv" path="res://demo_3d/Models/DAE format/coinGold.dae" id="65_bhpq3"]
+[ext_resource type="PackedScene" uid="uid://cvlyt6i21obhs" path="res://demo_3d/Models/DAE format/coinSilver.dae" id="66_h7il0"]
+[ext_resource type="PackedScene" uid="uid://b7o6t7qv1uavx" path="res://demo_3d/Models/DAE format/crate.dae" id="67_i4p8s"]
+[ext_resource type="PackedScene" uid="uid://o0w5sbeeoeyl" path="res://demo_3d/Models/DAE format/crateItem.dae" id="68_8epr5"]
+[ext_resource type="PackedScene" uid="uid://dy5uyxki4mktb" path="res://demo_3d/Models/DAE format/crateItemStrong.dae" id="69_yrl3x"]
+[ext_resource type="PackedScene" uid="uid://dvlc785mppgqg" path="res://demo_3d/Models/DAE format/crateStrong.dae" id="70_0qh6a"]
+[ext_resource type="PackedScene" uid="uid://c4nlrb4n1pn6c" path="res://demo_3d/Models/DAE format/doorClosed.dae" id="71_xsehm"]
+[ext_resource type="PackedScene" uid="uid://b74dhgajjwvep" path="res://demo_3d/Models/DAE format/doorLargeClosed.dae" id="72_4wurc"]
+[ext_resource type="PackedScene" uid="uid://db8od8gj3o65d" path="res://demo_3d/Models/DAE format/doorLargeOpen.dae" id="73_md3k1"]
+[ext_resource type="PackedScene" uid="uid://c20t41lm5xn0b" path="res://demo_3d/Models/DAE format/doorOpen.dae" id="74_hhtms"]
+[ext_resource type="PackedScene" uid="uid://bh0yxe8s4ncv2" path="res://demo_3d/Models/DAE format/fence.dae" id="75_lfyvc"]
+[ext_resource type="PackedScene" uid="uid://bawph8coo5it5" path="res://demo_3d/Models/DAE format/fenceBroken.dae" id="76_a04bj"]
+[ext_resource type="PackedScene" uid="uid://qva8xw3wuyaa" path="res://demo_3d/Models/DAE format/fenceCorner.dae" id="77_y324o"]
+[ext_resource type="PackedScene" uid="uid://c1agjbojksywg" path="res://demo_3d/Models/DAE format/fenceCornerCurved.dae" id="78_6y1yl"]
+[ext_resource type="PackedScene" uid="uid://cjbyslg3qgqp2" path="res://demo_3d/Models/DAE format/fenceLow.dae" id="79_n2o3x"]
+[ext_resource type="PackedScene" uid="uid://b4uqpri560f3h" path="res://demo_3d/Models/DAE format/fenceLowBroken.dae" id="80_wwpay"]
+[ext_resource type="PackedScene" uid="uid://dy4tq63uk6wbv" path="res://demo_3d/Models/DAE format/fenceLowCorner.dae" id="81_6ux1n"]
+[ext_resource type="PackedScene" uid="uid://cc3mvmfa17v5s" path="res://demo_3d/Models/DAE format/fenceLowCornerCurved.dae" id="82_bgk40"]
+[ext_resource type="PackedScene" uid="uid://d14uh8bcb4rmf" path="res://demo_3d/Models/DAE format/flag.dae" id="83_wn0wc"]
+[ext_resource type="PackedScene" uid="uid://d2aousaer2chg" path="res://demo_3d/Models/DAE format/flowers.dae" id="84_nkbkw"]
+[ext_resource type="PackedScene" uid="uid://cero2xqh4redt" path="res://demo_3d/Models/DAE format/flowersLow.dae" id="85_440wm"]
+[ext_resource type="PackedScene" uid="uid://dilbp0xe70cgw" path="res://demo_3d/Models/DAE format/heart.dae" id="86_tkvqk"]
+[ext_resource type="PackedScene" uid="uid://dcdck5671tpxd" path="res://demo_3d/Models/DAE format/hedge.dae" id="87_2t0u5"]
+[ext_resource type="PackedScene" uid="uid://m66v03u6w3ce" path="res://demo_3d/Models/DAE format/hedgeCorner.dae" id="88_kr7nh"]
+[ext_resource type="PackedScene" uid="uid://c15w7q4o2vp6j" path="res://demo_3d/Models/DAE format/jewel.dae" id="89_56li8"]
+[ext_resource type="PackedScene" uid="uid://bmk70ka0iecv0" path="res://demo_3d/Models/DAE format/key.dae" id="90_dhb3t"]
+[ext_resource type="PackedScene" uid="uid://bs8iokpe1m760" path="res://demo_3d/Models/DAE format/ladder.dae" id="91_iokbf"]
+[ext_resource type="PackedScene" uid="uid://ccejdirlg113u" path="res://demo_3d/Models/DAE format/ladderBroken.dae" id="92_k83co"]
+[ext_resource type="PackedScene" uid="uid://ckxdt40nj0prc" path="res://demo_3d/Models/DAE format/ladderLong.dae" id="93_rvbc6"]
+[ext_resource type="PackedScene" uid="uid://5t04g0brt8d6" path="res://demo_3d/Models/DAE format/lever.dae" id="94_6edrl"]
+[ext_resource type="PackedScene" uid="uid://b82idjvuh3xsd" path="res://demo_3d/Models/DAE format/lock.dae" id="95_hlg1t"]
+[ext_resource type="PackedScene" uid="uid://g58fdgxjquon" path="res://demo_3d/Models/DAE format/mushrooms.dae" id="96_mnmqw"]
+[ext_resource type="PackedScene" uid="uid://0je3u45jgup2" path="res://demo_3d/Models/DAE format/plant.dae" id="97_rxkgf"]
+[ext_resource type="PackedScene" uid="uid://d0m1bawr600aq" path="res://demo_3d/Models/DAE format/platform.dae" id="98_4i7x3"]
+[ext_resource type="PackedScene" uid="uid://csxm5mvli3qyw" path="res://demo_3d/Models/DAE format/poles.dae" id="99_p53bf"]
+[ext_resource type="PackedScene" uid="uid://ccefed3r8miee" path="res://demo_3d/Models/DAE format/rocks.dae" id="100_s8eii"]
+[ext_resource type="PackedScene" uid="uid://ceev15tktisa" path="res://demo_3d/Models/DAE format/saw.dae" id="101_qq4ib"]
+[ext_resource type="PackedScene" uid="uid://bclgx7vumgc6m" path="res://demo_3d/Models/DAE format/sign.dae" id="102_8c6pm"]
+[ext_resource type="PackedScene" uid="uid://cnb0xagberlsc" path="res://demo_3d/Models/DAE format/spikeBlock.dae" id="103_72d6p"]
+[ext_resource type="PackedScene" uid="uid://3xmmeputb7j4" path="res://demo_3d/Models/DAE format/spikeBlockWide.dae" id="104_8dtqr"]
+[ext_resource type="PackedScene" uid="uid://in6y36t4kgrs" path="res://demo_3d/Models/DAE format/spikes.dae" id="105_me56r"]
+[ext_resource type="PackedScene" uid="uid://cpljyihce8v06" path="res://demo_3d/Models/DAE format/spikesHidden.dae" id="106_16w8w"]
+[ext_resource type="PackedScene" uid="uid://bloclogmdoq1t" path="res://demo_3d/Models/DAE format/spikesLarge.dae" id="107_va11l"]
+[ext_resource type="PackedScene" uid="uid://dugu3cvbbch5y" path="res://demo_3d/Models/DAE format/stones.dae" id="108_p23n1"]
+[ext_resource type="PackedScene" uid="uid://7acl37dsvwhy" path="res://demo_3d/Models/DAE format/tree.dae" id="109_vlqjm"]
+[ext_resource type="PackedScene" uid="uid://367y5anbhq51" path="res://demo_3d/Models/DAE format/treePine.dae" id="110_x414c"]
+[ext_resource type="PackedScene" uid="uid://bjsjgs4v5wuei" path="res://demo_3d/Models/DAE format/treePineSmall.dae" id="111_32vux"]
+[ext_resource type="PackedScene" uid="uid://cfof5rxeubvpb" path="res://demo_3d/Models/DAE format/treePineSmallSnow.dae" id="112_isyfm"]
+[ext_resource type="PackedScene" uid="uid://dbojqthh23oi8" path="res://demo_3d/Models/DAE format/treePineSnow.dae" id="113_wfacp"]
+[ext_resource type="PackedScene" uid="uid://bbsvox4hgmvs3" path="res://demo_3d/Models/DAE format/treeSnow.dae" id="114_1wgr3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_40qj1"]
+resource_name = "dirt"
+cull_mode = 2
+albedo_color = Color(0.878431, 0.576471, 0.372549, 1)
+metallic = 0.5
+roughness = 0.0960784
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gqkst"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 0.50001, 1),
+"format": 4097,
+"index_count": 612,
+"index_data": PackedByteArray(0, 0, 2, 0, 1, 0, 3, 0, 5, 0, 4, 0, 6, 0, 8, 0, 7, 0, 3, 0, 10, 0, 9, 0, 11, 0, 13, 0, 12, 0, 14, 0, 13, 0, 11, 0, 3, 0, 4, 0, 10, 0, 0, 0, 16, 0, 15, 0, 13, 0, 17, 0, 12, 0, 18, 0, 20, 0, 19, 0, 0, 0, 15, 0, 2, 0, 21, 0, 20, 0, 18, 0, 19, 0, 20, 0, 22, 0, 23, 0, 25, 0, 24, 0, 26, 0, 23, 0, 24, 0, 27, 0, 26, 0, 24, 0, 28, 0, 30, 0, 29, 0, 8, 0, 31, 0, 7, 0, 32, 0, 34, 0, 33, 0, 35, 0, 28, 0, 29, 0, 36, 0, 34, 0, 37, 0, 38, 0, 28, 0, 35, 0, 37, 0, 34, 0, 32, 0, 31, 0, 39, 0, 7, 0, 20, 0, 7, 0, 13, 0, 3, 0, 13, 0, 7, 0, 40, 0, 42, 0, 41, 0, 43, 0, 41, 0, 42, 0, 34, 0, 24, 0, 28, 0, 0, 0, 28, 0, 24, 0, 44, 0, 46, 0, 45, 0, 47, 0, 45, 0, 46, 0, 48, 0, 50, 0, 49, 0, 51, 0, 49, 0, 50, 0, 52, 0, 54, 0, 53, 0, 55, 0, 53, 0, 54, 0, 56, 0, 57, 0, 6, 0, 8, 0, 6, 0, 57, 0, 56, 0, 53, 0, 57, 0, 58, 0, 57, 0, 53, 0, 8, 0, 57, 0, 31, 0, 59, 0, 31, 0, 57, 0, 59, 0, 57, 0, 60, 0, 58, 0, 60, 0, 57, 0, 61, 0, 4, 0, 62, 0, 5, 0, 62, 0, 4, 0, 63, 0, 12, 0, 64, 0, 17, 0, 64, 0, 12, 0, 10, 0, 4, 0, 65, 0, 61, 0, 65, 0, 4, 0, 66, 0, 67, 0, 18, 0, 21, 0, 18, 0, 67, 0, 68, 0, 69, 0, 66, 0, 70, 0, 66, 0, 69, 0, 51, 0, 69, 0, 71, 0, 68, 0, 71, 0, 69, 0, 72, 0, 49, 0, 73, 0, 74, 0, 73, 0, 49, 0, 9, 0, 10, 0, 75, 0, 65, 0, 75, 0, 10, 0, 76, 0, 59, 0, 42, 0, 60, 0, 42, 0, 59, 0, 65, 0, 77, 0, 75, 0, 44, 0, 75, 0, 77, 0, 73, 0, 74, 0, 11, 0, 14, 0, 11, 0, 74, 0, 71, 0, 68, 0, 22, 0, 19, 0, 22, 0, 68, 0, 73, 0, 11, 0, 63, 0, 12, 0, 63, 0, 11, 0, 64, 0, 45, 0, 63, 0, 78, 0, 63, 0, 45, 0, 77, 0, 65, 0, 79, 0, 61, 0, 79, 0, 65, 0, 66, 0, 70, 0, 67, 0, 52, 0, 67, 0, 70, 0, 80, 0, 81, 0, 16, 0, 15, 0, 16, 0, 81, 0, 79, 0, 61, 0, 40, 0, 62, 0, 40, 0, 61, 0, 78, 0, 72, 0, 63, 0, 73, 0, 63, 0, 72, 0, 2, 0, 15, 0, 82, 0, 81, 0, 82, 0, 15, 0, 68, 0, 66, 0, 19, 0, 18, 0, 19, 0, 66, 0, 1, 0, 2, 0, 83, 0, 82, 0, 83, 0, 2, 0, 43, 0, 84, 0, 80, 0, 81, 0, 80, 0, 84, 0, 55, 0, 83, 0, 85, 0, 82, 0, 85, 0, 83, 0, 81, 0, 84, 0, 82, 0, 85, 0, 82, 0, 84, 0, 86, 0, 27, 0, 87, 0, 36, 0, 87, 0, 27, 0, 36, 0, 27, 0, 34, 0, 24, 0, 34, 0, 27, 0, 33, 0, 38, 0, 88, 0, 89, 0, 88, 0, 38, 0, 46, 0, 86, 0, 47, 0, 87, 0, 47, 0, 86, 0, 33, 0, 34, 0, 38, 0, 28, 0, 38, 0, 34, 0, 88, 0, 89, 0, 48, 0, 50, 0, 48, 0, 89, 0, 5, 0, 39, 0, 62, 0, 76, 0, 62, 0, 39, 0, 62, 0, 76, 0, 40, 0, 42, 0, 40, 0, 76, 0, 7, 0, 39, 0, 3, 0, 5, 0, 3, 0, 39, 0, 79, 0, 40, 0, 90, 0, 41, 0, 90, 0, 40, 0, 77, 0, 79, 0, 91, 0, 90, 0, 91, 0, 79, 0, 77, 0, 91, 0, 44, 0, 46, 0, 44, 0, 91, 0, 17, 0, 9, 0, 64, 0, 75, 0, 64, 0, 9, 0, 75, 0, 44, 0, 64, 0, 45, 0, 64, 0, 44, 0, 13, 0, 3, 0, 17, 0, 9, 0, 17, 0, 3, 0, 22, 0, 20, 0, 14, 0, 13, 0, 14, 0, 20, 0, 74, 0, 71, 0, 14, 0, 22, 0, 14, 0, 71, 0, 49, 0, 51, 0, 74, 0, 71, 0, 74, 0, 51, 0, 21, 0, 6, 0, 20, 0, 7, 0, 20, 0, 6, 0, 60, 0, 58, 0, 84, 0, 85, 0, 84, 0, 58, 0, 53, 0, 55, 0, 58, 0, 85, 0, 58, 0, 55, 0, 28, 0, 0, 0, 30, 0, 1, 0, 30, 0, 0, 0, 41, 0, 43, 0, 92, 0, 80, 0, 92, 0, 43, 0, 24, 0, 25, 0, 0, 0, 16, 0, 0, 0, 25, 0, 93, 0, 30, 0, 83, 0, 1, 0, 83, 0, 30, 0, 54, 0, 93, 0, 55, 0, 83, 0, 55, 0, 93, 0, 67, 0, 56, 0, 21, 0, 6, 0, 21, 0, 56, 0, 67, 0, 52, 0, 56, 0, 53, 0, 56, 0, 52, 0, 42, 0, 60, 0, 43, 0, 84, 0, 43, 0, 60, 0, 92, 0, 80, 0, 25, 0, 16, 0, 25, 0, 80, 0, 45, 0, 47, 0, 78, 0, 94, 0, 78, 0, 47, 0, 95, 0, 48, 0, 72, 0, 49, 0, 72, 0, 48, 0, 94, 0, 95, 0, 78, 0, 72, 0, 78, 0, 95, 0, 50, 0, 96, 0, 51, 0, 69, 0, 51, 0, 96, 0, 96, 0, 97, 0, 69, 0, 70, 0, 69, 0, 97, 0, 70, 0, 97, 0, 52, 0, 54, 0, 52, 0, 97, 0, 98, 0, 92, 0, 23, 0, 25, 0, 23, 0, 92, 0, 26, 0, 99, 0, 23, 0, 98, 0, 23, 0, 99, 0, 86, 0, 99, 0, 27, 0, 26, 0, 27, 0, 99, 0, 90, 0, 41, 0, 98, 0, 92, 0, 98, 0, 41, 0, 97, 0, 100, 0, 54, 0, 93, 0, 54, 0, 100, 0, 38, 0, 35, 0, 89, 0, 101, 0, 89, 0, 35, 0, 102, 0, 103, 0, 32, 0, 37, 0, 32, 0, 103, 0, 89, 0, 101, 0, 50, 0, 96, 0, 50, 0, 101, 0, 91, 0, 99, 0, 46, 0, 86, 0, 46, 0, 99, 0, 102, 0, 32, 0, 88, 0, 33, 0, 88, 0, 32, 0, 101, 0, 35, 0, 100, 0, 29, 0, 100, 0, 35, 0, 103, 0, 87, 0, 37, 0, 36, 0, 37, 0, 87, 0, 94, 0, 103, 0, 95, 0, 102, 0, 95, 0, 103, 0, 100, 0, 29, 0, 93, 0, 30, 0, 93, 0, 29, 0, 39, 0, 31, 0, 76, 0, 59, 0, 76, 0, 31, 0, 91, 0, 90, 0, 99, 0, 98, 0, 99, 0, 90, 0, 95, 0, 102, 0, 48, 0, 88, 0, 48, 0, 102, 0, 101, 0, 100, 0, 96, 0, 97, 0, 96, 0, 100, 0, 47, 0, 87, 0, 94, 0, 103, 0, 94, 0, 87, 0),
+"name": "dirt",
+"primitive": 3,
+"vertex_count": 104,
+"vertex_data": PackedByteArray(205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 62, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 62, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 190, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 190, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 62, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 62, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 190, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 190, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 190, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 190, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 190, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 62, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 62, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 190, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 62, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 62, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 62, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 62, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 190, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 190, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 190, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 190, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 62, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 62, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 62, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 62, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 190, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 190, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 190, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 62, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 190, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 190, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 62, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 191, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 191, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 191, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 190, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 190, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 62, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 63, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 62, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 62, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 62, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 62, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 62, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 190, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 190, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 190, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 190, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 190, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 62, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 62, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 62, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 62, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 62, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 62, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 190, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 190, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 190, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 190, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 62, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 190, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 190, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 190, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 62, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 62, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 62, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 62, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 62, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 190, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 190, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 190, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 190, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 190, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 190, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 62, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 190, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 190, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 62, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 62, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 190, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 190, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 62, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 62, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 190, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 190)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pnwt8"]
+resource_name = "Mesh"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 0.50001, 1),
+"attribute_data": PackedByteArray(44, 43, 50, 193, 46, 45, 101, 65, 81, 4, 42, 193, 197, 95, 130, 65, 7, 82, 58, 193, 197, 95, 130, 65, 44, 43, 50, 193, 17, 175, 140, 193, 7, 82, 58, 193, 63, 120, 156, 193, 81, 4, 42, 193, 63, 120, 156, 193, 81, 4, 42, 193, 63, 120, 156, 193, 44, 43, 50, 193, 17, 175, 140, 193, 7, 82, 58, 193, 63, 120, 156, 193, 44, 43, 50, 65, 17, 175, 140, 193, 81, 4, 42, 65, 63, 120, 156, 193, 7, 82, 58, 65, 63, 120, 156, 193, 173, 109, 2, 191, 159, 120, 179, 193, 173, 109, 2, 63, 159, 120, 179, 193, 0, 0, 0, 0, 114, 175, 163, 193, 81, 4, 42, 65, 63, 120, 156, 193, 7, 82, 58, 65, 63, 120, 156, 193, 44, 43, 50, 65, 17, 175, 140, 193, 0, 0, 0, 0, 114, 175, 163, 193, 173, 109, 2, 191, 159, 120, 179, 193, 173, 109, 2, 63, 159, 120, 179, 193, 44, 43, 50, 65, 46, 45, 101, 65, 7, 82, 58, 65, 197, 95, 130, 65, 81, 4, 42, 65, 197, 95, 130, 65, 44, 43, 50, 193, 17, 175, 140, 193, 7, 82, 58, 193, 63, 120, 156, 193, 81, 4, 42, 193, 63, 120, 156, 193, 173, 109, 2, 191, 159, 120, 179, 193, 173, 109, 2, 63, 159, 120, 179, 193, 0, 0, 0, 0, 114, 175, 163, 193, 0, 0, 0, 0, 247, 150, 137, 65, 173, 109, 2, 63, 37, 96, 153, 65, 173, 109, 2, 191, 37, 96, 153, 65, 81, 4, 42, 65, 63, 120, 156, 193, 7, 82, 58, 65, 63, 120, 156, 193, 44, 43, 50, 65, 17, 175, 140, 193, 7, 82, 58, 193, 63, 120, 156, 193, 81, 4, 42, 193, 63, 120, 156, 193, 44, 43, 50, 193, 17, 175, 140, 193, 7, 82, 58, 193, 197, 95, 130, 65, 44, 43, 50, 193, 46, 45, 101, 65, 81, 4, 42, 193, 197, 95, 130, 65, 173, 109, 2, 191, 37, 96, 153, 65, 0, 0, 0, 0, 247, 150, 137, 65, 173, 109, 2, 63, 37, 96, 153, 65, 81, 4, 42, 65, 197, 95, 130, 65, 44, 43, 50, 65, 46, 45, 101, 65, 7, 82, 58, 65, 197, 95, 130, 65, 44, 43, 50, 65, 46, 45, 101, 65, 7, 82, 58, 65, 197, 95, 130, 65, 81, 4, 42, 65, 197, 95, 130, 65, 173, 109, 2, 63, 159, 120, 179, 193, 0, 0, 0, 0, 114, 175, 163, 193, 173, 109, 2, 191, 159, 120, 179, 193, 7, 82, 58, 65, 197, 95, 130, 65, 81, 4, 42, 65, 197, 95, 130, 65, 44, 43, 50, 65, 46, 45, 101, 65, 173, 109, 2, 63, 37, 96, 153, 65, 173, 109, 2, 191, 37, 96, 153, 65, 0, 0, 0, 0, 247, 150, 137, 65, 81, 4, 42, 193, 197, 95, 130, 65, 7, 82, 58, 193, 197, 95, 130, 65, 44, 43, 50, 193, 46, 45, 101, 65, 81, 4, 42, 193, 197, 95, 130, 65, 7, 82, 58, 193, 197, 95, 130, 65, 44, 43, 50, 193, 46, 45, 101, 65, 173, 109, 2, 63, 37, 96, 153, 65, 173, 109, 2, 191, 37, 96, 153, 65, 0, 0, 0, 0, 247, 150, 137, 65, 7, 82, 58, 65, 63, 120, 156, 193, 44, 43, 50, 65, 17, 175, 140, 193, 81, 4, 42, 65, 63, 120, 156, 193, 240, 247, 123, 65, 240, 247, 107, 193, 240, 247, 123, 65, 248, 251, 133, 65, 240, 247, 123, 193, 240, 247, 107, 193, 240, 247, 123, 193, 248, 251, 133, 65, 240, 247, 123, 193, 240, 247, 59, 192, 240, 247, 123, 193, 240, 247, 107, 193, 240, 247, 123, 65, 240, 247, 59, 192, 240, 247, 123, 65, 240, 247, 107, 193, 240, 247, 123, 193, 248, 251, 133, 65, 240, 247, 123, 193, 240, 247, 107, 193, 240, 247, 123, 65, 248, 251, 133, 65, 240, 247, 123, 65, 240, 247, 107, 193, 240, 247, 123, 65, 240, 247, 59, 192, 240, 247, 123, 193, 240, 247, 59, 192, 240, 247, 123, 65, 240, 247, 107, 193, 240, 247, 123, 193, 240, 247, 107, 193, 240, 247, 123, 65, 240, 247, 107, 193, 240, 247, 123, 65, 240, 247, 59, 192, 240, 247, 123, 193, 240, 247, 107, 193, 240, 247, 123, 193, 240, 247, 59, 192, 240, 247, 123, 65, 240, 247, 59, 192, 240, 247, 123, 193, 240, 247, 59, 192, 240, 247, 123, 65, 240, 247, 107, 193, 240, 247, 123, 193, 240, 247, 107, 193, 161, 12, 36, 193, 104, 212, 128, 193, 81, 4, 42, 193, 96, 154, 97, 193, 182, 73, 64, 193, 104, 212, 128, 193, 7, 82, 58, 193, 96, 154, 97, 193, 161, 12, 36, 193, 240, 8, 210, 192, 182, 73, 64, 193, 240, 8, 210, 192, 118, 221, 33, 193, 36, 141, 9, 193, 226, 120, 66, 193, 36, 141, 9, 193, 173, 109, 2, 63, 154, 98, 129, 193, 173, 109, 2, 191, 154, 98, 129, 193, 163, 232, 97, 63, 210, 105, 145, 193, 163, 232, 97, 191, 210, 105, 145, 193, 163, 232, 97, 191, 110, 245, 233, 192, 181, 109, 130, 191, 100, 131, 21, 193, 163, 232, 97, 63, 110, 245, 233, 192, 181, 109, 130, 63, 100, 131, 21, 193, 182, 73, 64, 193, 104, 212, 128, 193, 161, 12, 36, 193, 104, 212, 128, 193, 7, 82, 58, 193, 96, 154, 97, 193, 81, 4, 42, 193, 96, 154, 97, 193, 182, 73, 64, 193, 104, 212, 128, 193, 161, 12, 36, 193, 104, 212, 128, 193, 7, 82, 58, 193, 96, 154, 97, 193, 81, 4, 42, 193, 96, 154, 97, 193, 173, 109, 2, 191, 154, 98, 129, 193, 163, 232, 97, 191, 210, 105, 145, 193, 173, 109, 2, 63, 154, 98, 129, 193, 163, 232, 97, 63, 210, 105, 145, 193, 182, 73, 64, 65, 104, 212, 128, 193, 7, 82, 58, 65, 96, 154, 97, 193, 161, 12, 36, 65, 104, 212, 128, 193, 81, 4, 42, 65, 96, 154, 97, 193, 163, 232, 97, 63, 110, 245, 233, 192, 163, 232, 97, 191, 110, 245, 233, 192, 181, 109, 130, 63, 100, 131, 21, 193, 181, 109, 130, 191, 100, 131, 21, 193, 118, 221, 33, 193, 36, 141, 9, 193, 161, 12, 36, 193, 240, 8, 210, 192, 226, 120, 66, 193, 36, 141, 9, 193, 182, 73, 64, 193, 240, 8, 210, 192, 226, 120, 66, 65, 36, 141, 9, 193, 182, 73, 64, 65, 240, 8, 210, 192, 118, 221, 33, 65, 36, 141, 9, 193, 161, 12, 36, 65, 240, 8, 210, 192, 81, 4, 42, 65, 96, 154, 97, 193, 161, 12, 36, 65, 104, 212, 128, 193, 7, 82, 58, 65, 96, 154, 97, 193, 182, 73, 64, 65, 104, 212, 128, 193, 161, 12, 36, 65, 240, 8, 210, 192, 118, 221, 33, 65, 36, 141, 9, 193, 182, 73, 64, 65, 240, 8, 210, 192, 226, 120, 66, 65, 36, 141, 9, 193, 182, 73, 64, 65, 240, 8, 210, 192, 161, 12, 36, 65, 240, 8, 210, 192, 226, 120, 66, 65, 36, 141, 9, 193, 118, 221, 33, 65, 36, 141, 9, 193, 182, 73, 64, 65, 104, 212, 128, 193, 7, 82, 58, 65, 96, 154, 97, 193, 161, 12, 36, 65, 104, 212, 128, 193, 81, 4, 42, 65, 96, 154, 97, 193, 161, 12, 36, 193, 104, 212, 128, 193, 81, 4, 42, 193, 96, 154, 97, 193, 182, 73, 64, 193, 104, 212, 128, 193, 7, 82, 58, 193, 96, 154, 97, 193, 163, 232, 97, 191, 210, 105, 145, 193, 163, 232, 97, 63, 210, 105, 145, 193, 173, 109, 2, 191, 154, 98, 129, 193, 173, 109, 2, 63, 154, 98, 129, 193, 161, 12, 36, 193, 240, 8, 210, 192, 182, 73, 64, 193, 240, 8, 210, 192, 118, 221, 33, 193, 36, 141, 9, 193, 226, 120, 66, 193, 36, 141, 9, 193, 181, 109, 130, 191, 100, 131, 21, 193, 181, 109, 130, 63, 100, 131, 21, 193, 163, 232, 97, 191, 110, 245, 233, 192, 163, 232, 97, 63, 110, 245, 233, 192, 182, 73, 64, 65, 240, 8, 210, 192, 161, 12, 36, 65, 240, 8, 210, 192, 226, 120, 66, 65, 36, 141, 9, 193, 118, 221, 33, 65, 36, 141, 9, 193, 161, 12, 36, 65, 124, 125, 124, 64, 81, 4, 42, 65, 118, 135, 248, 63, 182, 73, 64, 65, 124, 125, 124, 64, 7, 82, 58, 65, 118, 135, 248, 63, 226, 120, 66, 193, 36, 141, 9, 193, 118, 221, 33, 193, 36, 141, 9, 193, 182, 73, 64, 193, 240, 8, 210, 192, 161, 12, 36, 193, 240, 8, 210, 192, 181, 109, 130, 63, 100, 131, 21, 193, 163, 232, 97, 63, 110, 245, 233, 192, 181, 109, 130, 191, 100, 131, 21, 193, 163, 232, 97, 191, 110, 245, 233, 192, 173, 109, 2, 63, 134, 119, 128, 64, 163, 232, 97, 63, 104, 148, 192, 64, 173, 109, 2, 191, 134, 119, 128, 64, 163, 232, 97, 191, 104, 148, 192, 64, 163, 232, 97, 63, 210, 105, 145, 193, 173, 109, 2, 63, 154, 98, 129, 193, 163, 232, 97, 191, 210, 105, 145, 193, 173, 109, 2, 191, 154, 98, 129, 193, 81, 4, 42, 193, 118, 135, 248, 63, 161, 12, 36, 193, 124, 125, 124, 64, 7, 82, 58, 193, 118, 135, 248, 63, 182, 73, 64, 193, 124, 125, 124, 64, 118, 221, 33, 65, 183, 92, 7, 193, 161, 12, 36, 65, 99, 229, 39, 193, 226, 120, 66, 65, 183, 92, 7, 193, 182, 73, 64, 65, 99, 229, 39, 193, 118, 221, 33, 193, 183, 92, 7, 193, 226, 120, 66, 193, 183, 92, 7, 193, 161, 12, 36, 193, 99, 229, 39, 193, 182, 73, 64, 193, 99, 229, 39, 193, 163, 232, 97, 191, 36, 239, 27, 193, 163, 232, 97, 63, 36, 239, 27, 193, 181, 109, 130, 191, 238, 204, 246, 192, 181, 109, 130, 63, 238, 204, 246, 192, 240, 247, 123, 65, 218, 54, 1, 64, 240, 247, 123, 193, 218, 54, 1, 64, 240, 247, 123, 65, 64, 109, 155, 188, 240, 247, 123, 193, 64, 109, 155, 188, 240, 247, 123, 193, 226, 120, 82, 65, 240, 247, 123, 193, 118, 221, 49, 65, 240, 247, 123, 65, 226, 120, 82, 65, 240, 247, 123, 65, 118, 221, 49, 65, 240, 247, 123, 65, 64, 109, 155, 188, 240, 247, 123, 65, 218, 54, 1, 64, 240, 247, 123, 193, 64, 109, 155, 188, 240, 247, 123, 193, 218, 54, 1, 64, 240, 247, 123, 65, 118, 221, 17, 193, 240, 247, 123, 193, 118, 221, 17, 193, 240, 247, 123, 65, 226, 120, 50, 193, 240, 247, 123, 193, 226, 120, 50, 193, 240, 247, 123, 65, 226, 120, 82, 65, 240, 247, 123, 193, 226, 120, 82, 65, 240, 247, 123, 65, 118, 221, 49, 65, 240, 247, 123, 193, 118, 221, 49, 65, 240, 247, 123, 65, 226, 120, 50, 193, 240, 247, 123, 65, 118, 221, 17, 193, 240, 247, 123, 193, 226, 120, 50, 193, 240, 247, 123, 193, 118, 221, 17, 193, 240, 247, 123, 193, 65, 104, 62, 193, 240, 247, 123, 193, 173, 3, 95, 193, 240, 247, 123, 65, 65, 104, 62, 193, 240, 247, 123, 65, 173, 3, 95, 193, 240, 247, 123, 193, 73, 131, 187, 192, 240, 247, 123, 193, 32, 186, 252, 192, 240, 247, 123, 65, 73, 131, 187, 192, 240, 247, 123, 65, 32, 186, 252, 192, 240, 247, 123, 65, 5, 98, 99, 193, 240, 247, 123, 193, 5, 98, 99, 193, 240, 247, 123, 65, 185, 254, 129, 193, 240, 247, 123, 193, 185, 254, 129, 193, 226, 120, 66, 193, 240, 247, 59, 192, 226, 120, 66, 193, 240, 247, 107, 193, 118, 221, 33, 193, 240, 247, 59, 192, 118, 221, 33, 193, 240, 247, 107, 193, 181, 109, 130, 191, 240, 247, 59, 192, 181, 109, 130, 191, 240, 247, 107, 193, 181, 109, 130, 63, 240, 247, 59, 192, 181, 109, 130, 63, 240, 247, 107, 193, 226, 120, 66, 65, 240, 247, 59, 192, 118, 221, 33, 65, 240, 247, 59, 192, 226, 120, 66, 65, 240, 247, 107, 193, 118, 221, 33, 65, 240, 247, 107, 193, 240, 247, 123, 193, 65, 104, 62, 193, 240, 247, 123, 193, 173, 3, 95, 193, 240, 247, 123, 65, 65, 104, 62, 193, 240, 247, 123, 65, 173, 3, 95, 193, 240, 247, 123, 65, 73, 131, 187, 192, 240, 247, 123, 193, 73, 131, 187, 192, 240, 247, 123, 65, 32, 186, 252, 192, 240, 247, 123, 193, 32, 186, 252, 192, 240, 247, 123, 193, 5, 98, 99, 193, 240, 247, 123, 193, 185, 254, 129, 193, 240, 247, 123, 65, 5, 98, 99, 193, 240, 247, 123, 65, 185, 254, 129, 193, 240, 247, 123, 193, 185, 254, 129, 193, 240, 247, 123, 65, 185, 254, 129, 193, 240, 247, 123, 193, 5, 98, 99, 193, 240, 247, 123, 65, 5, 98, 99, 193, 240, 247, 123, 65, 173, 3, 95, 193, 240, 247, 123, 65, 65, 104, 62, 193, 240, 247, 123, 193, 173, 3, 95, 193, 240, 247, 123, 193, 65, 104, 62, 193, 240, 247, 123, 65, 32, 186, 252, 192, 240, 247, 123, 65, 73, 131, 187, 192, 240, 247, 123, 193, 32, 186, 252, 192, 240, 247, 123, 193, 73, 131, 187, 192, 240, 247, 123, 65, 185, 254, 129, 193, 240, 247, 123, 65, 5, 98, 99, 193, 240, 247, 123, 193, 185, 254, 129, 193, 240, 247, 123, 193, 5, 98, 99, 193, 181, 109, 130, 191, 240, 247, 59, 192, 181, 109, 130, 191, 240, 247, 107, 193, 181, 109, 130, 63, 240, 247, 59, 192, 181, 109, 130, 63, 240, 247, 107, 193, 118, 221, 33, 193, 240, 247, 59, 192, 226, 120, 66, 193, 240, 247, 59, 192, 118, 221, 33, 193, 240, 247, 107, 193, 226, 120, 66, 193, 240, 247, 107, 193, 240, 247, 123, 65, 118, 221, 49, 65, 240, 247, 123, 65, 226, 120, 82, 65, 240, 247, 123, 193, 118, 221, 49, 65, 240, 247, 123, 193, 226, 120, 82, 65, 240, 247, 123, 193, 118, 221, 17, 193, 240, 247, 123, 193, 226, 120, 50, 193, 240, 247, 123, 65, 118, 221, 17, 193, 240, 247, 123, 65, 226, 120, 50, 193, 240, 247, 123, 193, 118, 221, 49, 65, 240, 247, 123, 65, 118, 221, 49, 65, 240, 247, 123, 193, 226, 120, 82, 65, 240, 247, 123, 65, 226, 120, 82, 65, 240, 247, 123, 65, 218, 54, 1, 64, 240, 247, 123, 193, 218, 54, 1, 64, 240, 247, 123, 65, 64, 109, 155, 188, 240, 247, 123, 193, 64, 109, 155, 188, 240, 247, 123, 65, 118, 221, 17, 193, 240, 247, 123, 193, 118, 221, 17, 193, 240, 247, 123, 65, 226, 120, 50, 193, 240, 247, 123, 193, 226, 120, 50, 193, 240, 247, 123, 65, 173, 3, 95, 193, 240, 247, 123, 65, 65, 104, 62, 193, 240, 247, 123, 193, 173, 3, 95, 193, 240, 247, 123, 193, 65, 104, 62, 193, 240, 247, 123, 65, 73, 131, 187, 192, 240, 247, 123, 193, 73, 131, 187, 192, 240, 247, 123, 65, 32, 186, 252, 192, 240, 247, 123, 193, 32, 186, 252, 192, 118, 221, 33, 65, 240, 247, 59, 192, 118, 221, 33, 65, 240, 247, 107, 193, 226, 120, 66, 65, 240, 247, 59, 192, 226, 120, 66, 65, 240, 247, 107, 193, 240, 247, 123, 193, 218, 54, 1, 64, 240, 247, 123, 193, 64, 109, 155, 188, 240, 247, 123, 65, 218, 54, 1, 64, 240, 247, 123, 65, 64, 109, 155, 188, 118, 221, 33, 193, 240, 247, 59, 192, 226, 120, 66, 193, 240, 247, 59, 192, 118, 221, 33, 193, 240, 247, 107, 193, 226, 120, 66, 193, 240, 247, 107, 193, 226, 120, 66, 65, 240, 247, 107, 193, 226, 120, 66, 65, 240, 247, 59, 192, 118, 221, 33, 65, 240, 247, 107, 193, 118, 221, 33, 65, 240, 247, 59, 192, 181, 109, 130, 63, 240, 247, 107, 193, 181, 109, 130, 63, 240, 247, 59, 192, 181, 109, 130, 191, 240, 247, 107, 193, 181, 109, 130, 191, 240, 247, 59, 192, 118, 221, 33, 193, 240, 247, 107, 193, 118, 221, 33, 193, 240, 247, 59, 192, 226, 120, 66, 193, 240, 247, 107, 193, 226, 120, 66, 193, 240, 247, 59, 192, 181, 109, 130, 63, 240, 247, 107, 193, 181, 109, 130, 63, 240, 247, 59, 192, 181, 109, 130, 191, 240, 247, 107, 193, 181, 109, 130, 191, 240, 247, 59, 192, 226, 120, 66, 65, 240, 247, 59, 192, 118, 221, 33, 65, 240, 247, 59, 192, 226, 120, 66, 65, 240, 247, 107, 193, 118, 221, 33, 65, 240, 247, 107, 193, 182, 73, 64, 193, 124, 125, 124, 64, 7, 82, 58, 193, 118, 135, 248, 63, 161, 12, 36, 193, 124, 125, 124, 64, 81, 4, 42, 193, 118, 135, 248, 63, 173, 109, 2, 191, 134, 119, 128, 64, 173, 109, 2, 63, 134, 119, 128, 64, 163, 232, 97, 191, 104, 148, 192, 64, 163, 232, 97, 63, 104, 148, 192, 64, 161, 12, 36, 65, 124, 125, 124, 64, 81, 4, 42, 65, 118, 135, 248, 63, 182, 73, 64, 65, 124, 125, 124, 64, 7, 82, 58, 65, 118, 135, 248, 63, 226, 120, 66, 193, 183, 92, 7, 193, 182, 73, 64, 193, 99, 229, 39, 193, 118, 221, 33, 193, 183, 92, 7, 193, 161, 12, 36, 193, 99, 229, 39, 193, 226, 120, 66, 65, 183, 92, 7, 193, 118, 221, 33, 65, 183, 92, 7, 193, 182, 73, 64, 65, 99, 229, 39, 193, 161, 12, 36, 65, 99, 229, 39, 193, 81, 4, 42, 193, 118, 135, 248, 63, 161, 12, 36, 193, 124, 125, 124, 64, 7, 82, 58, 193, 118, 135, 248, 63, 182, 73, 64, 193, 124, 125, 124, 64, 163, 232, 97, 191, 104, 148, 192, 64, 173, 109, 2, 191, 134, 119, 128, 64, 163, 232, 97, 63, 104, 148, 192, 64, 173, 109, 2, 63, 134, 119, 128, 64, 161, 12, 36, 193, 99, 229, 39, 193, 118, 221, 33, 193, 183, 92, 7, 193, 182, 73, 64, 193, 99, 229, 39, 193, 226, 120, 66, 193, 183, 92, 7, 193, 226, 120, 66, 65, 183, 92, 7, 193, 118, 221, 33, 65, 183, 92, 7, 193, 182, 73, 64, 65, 99, 229, 39, 193, 161, 12, 36, 65, 99, 229, 39, 193, 182, 73, 64, 65, 124, 125, 124, 64, 161, 12, 36, 65, 124, 125, 124, 64, 7, 82, 58, 65, 118, 135, 248, 63, 81, 4, 42, 65, 118, 135, 248, 63, 163, 232, 97, 63, 104, 148, 192, 64, 163, 232, 97, 191, 104, 148, 192, 64, 173, 109, 2, 63, 134, 119, 128, 64, 173, 109, 2, 191, 134, 119, 128, 64, 182, 73, 64, 193, 124, 125, 124, 64, 7, 82, 58, 193, 118, 135, 248, 63, 161, 12, 36, 193, 124, 125, 124, 64, 81, 4, 42, 193, 118, 135, 248, 63, 181, 109, 130, 63, 238, 204, 246, 192, 181, 109, 130, 191, 238, 204, 246, 192, 163, 232, 97, 63, 36, 239, 27, 193, 163, 232, 97, 191, 36, 239, 27, 193, 182, 73, 64, 65, 124, 125, 124, 64, 161, 12, 36, 65, 124, 125, 124, 64, 7, 82, 58, 65, 118, 135, 248, 63, 81, 4, 42, 65, 118, 135, 248, 63, 81, 4, 42, 65, 96, 154, 97, 193, 161, 12, 36, 65, 104, 212, 128, 193, 7, 82, 58, 65, 96, 154, 97, 193, 182, 73, 64, 65, 104, 212, 128, 193, 181, 109, 130, 191, 238, 204, 246, 192, 163, 232, 97, 191, 36, 239, 27, 193, 181, 109, 130, 63, 238, 204, 246, 192, 163, 232, 97, 63, 36, 239, 27, 193, 226, 120, 66, 65, 183, 92, 7, 193, 118, 221, 33, 65, 183, 92, 7, 193, 182, 73, 64, 65, 99, 229, 39, 193, 161, 12, 36, 65, 99, 229, 39, 193, 163, 232, 97, 63, 36, 239, 27, 193, 181, 109, 130, 63, 238, 204, 246, 192, 163, 232, 97, 191, 36, 239, 27, 193, 181, 109, 130, 191, 238, 204, 246, 192, 118, 221, 33, 193, 183, 92, 7, 193, 226, 120, 66, 193, 183, 92, 7, 193, 161, 12, 36, 193, 99, 229, 39, 193, 182, 73, 64, 193, 99, 229, 39, 193),
+"format": 4119,
+"index_count": 612,
+"index_data": PackedByteArray(0, 0, 2, 0, 1, 0, 3, 0, 5, 0, 4, 0, 6, 0, 8, 0, 7, 0, 9, 0, 11, 0, 10, 0, 12, 0, 14, 0, 13, 0, 15, 0, 17, 0, 16, 0, 18, 0, 20, 0, 19, 0, 21, 0, 23, 0, 22, 0, 24, 0, 26, 0, 25, 0, 27, 0, 29, 0, 28, 0, 30, 0, 32, 0, 31, 0, 33, 0, 35, 0, 34, 0, 36, 0, 38, 0, 37, 0, 39, 0, 41, 0, 40, 0, 42, 0, 44, 0, 43, 0, 45, 0, 47, 0, 46, 0, 48, 0, 50, 0, 49, 0, 51, 0, 53, 0, 52, 0, 54, 0, 56, 0, 55, 0, 57, 0, 59, 0, 58, 0, 60, 0, 62, 0, 61, 0, 63, 0, 65, 0, 64, 0, 66, 0, 68, 0, 67, 0, 69, 0, 71, 0, 70, 0, 72, 0, 74, 0, 73, 0, 75, 0, 73, 0, 74, 0, 76, 0, 78, 0, 77, 0, 79, 0, 77, 0, 78, 0, 80, 0, 82, 0, 81, 0, 83, 0, 81, 0, 82, 0, 84, 0, 86, 0, 85, 0, 87, 0, 85, 0, 86, 0, 88, 0, 90, 0, 89, 0, 91, 0, 89, 0, 90, 0, 92, 0, 94, 0, 93, 0, 95, 0, 93, 0, 94, 0, 96, 0, 98, 0, 97, 0, 99, 0, 97, 0, 98, 0, 100, 0, 102, 0, 101, 0, 103, 0, 101, 0, 102, 0, 104, 0, 106, 0, 105, 0, 107, 0, 105, 0, 106, 0, 108, 0, 110, 0, 109, 0, 111, 0, 109, 0, 110, 0, 112, 0, 114, 0, 113, 0, 115, 0, 113, 0, 114, 0, 116, 0, 118, 0, 117, 0, 119, 0, 117, 0, 118, 0, 120, 0, 122, 0, 121, 0, 123, 0, 121, 0, 122, 0, 124, 0, 126, 0, 125, 0, 127, 0, 125, 0, 126, 0, 128, 0, 130, 0, 129, 0, 131, 0, 129, 0, 130, 0, 132, 0, 134, 0, 133, 0, 135, 0, 133, 0, 134, 0, 136, 0, 138, 0, 137, 0, 139, 0, 137, 0, 138, 0, 140, 0, 142, 0, 141, 0, 143, 0, 141, 0, 142, 0, 144, 0, 146, 0, 145, 0, 147, 0, 145, 0, 146, 0, 148, 0, 150, 0, 149, 0, 151, 0, 149, 0, 150, 0, 152, 0, 154, 0, 153, 0, 155, 0, 153, 0, 154, 0, 156, 0, 158, 0, 157, 0, 159, 0, 157, 0, 158, 0, 160, 0, 162, 0, 161, 0, 163, 0, 161, 0, 162, 0, 164, 0, 166, 0, 165, 0, 167, 0, 165, 0, 166, 0, 168, 0, 170, 0, 169, 0, 171, 0, 169, 0, 170, 0, 172, 0, 174, 0, 173, 0, 175, 0, 173, 0, 174, 0, 176, 0, 178, 0, 177, 0, 179, 0, 177, 0, 178, 0, 180, 0, 182, 0, 181, 0, 183, 0, 181, 0, 182, 0, 184, 0, 186, 0, 185, 0, 187, 0, 185, 0, 186, 0, 188, 0, 190, 0, 189, 0, 191, 0, 189, 0, 190, 0, 192, 0, 194, 0, 193, 0, 195, 0, 193, 0, 194, 0, 196, 0, 198, 0, 197, 0, 199, 0, 197, 0, 198, 0, 200, 0, 202, 0, 201, 0, 203, 0, 201, 0, 202, 0, 204, 0, 206, 0, 205, 0, 207, 0, 205, 0, 206, 0, 208, 0, 210, 0, 209, 0, 211, 0, 209, 0, 210, 0, 212, 0, 214, 0, 213, 0, 215, 0, 213, 0, 214, 0, 216, 0, 218, 0, 217, 0, 219, 0, 217, 0, 218, 0, 220, 0, 222, 0, 221, 0, 223, 0, 221, 0, 222, 0, 224, 0, 226, 0, 225, 0, 227, 0, 225, 0, 226, 0, 228, 0, 230, 0, 229, 0, 231, 0, 229, 0, 230, 0, 232, 0, 234, 0, 233, 0, 235, 0, 233, 0, 234, 0, 236, 0, 238, 0, 237, 0, 239, 0, 237, 0, 238, 0, 240, 0, 242, 0, 241, 0, 243, 0, 241, 0, 242, 0, 244, 0, 246, 0, 245, 0, 247, 0, 245, 0, 246, 0, 248, 0, 250, 0, 249, 0, 251, 0, 249, 0, 250, 0, 252, 0, 254, 0, 253, 0, 255, 0, 253, 0, 254, 0, 0, 1, 2, 1, 1, 1, 3, 1, 1, 1, 2, 1, 4, 1, 6, 1, 5, 1, 7, 1, 5, 1, 6, 1, 8, 1, 10, 1, 9, 1, 11, 1, 9, 1, 10, 1, 12, 1, 14, 1, 13, 1, 15, 1, 13, 1, 14, 1, 16, 1, 18, 1, 17, 1, 19, 1, 17, 1, 18, 1, 20, 1, 22, 1, 21, 1, 23, 1, 21, 1, 22, 1, 24, 1, 26, 1, 25, 1, 27, 1, 25, 1, 26, 1, 28, 1, 30, 1, 29, 1, 31, 1, 29, 1, 30, 1, 32, 1, 34, 1, 33, 1, 35, 1, 33, 1, 34, 1, 36, 1, 38, 1, 37, 1, 39, 1, 37, 1, 38, 1, 40, 1, 42, 1, 41, 1, 43, 1, 41, 1, 42, 1, 44, 1, 46, 1, 45, 1, 47, 1, 45, 1, 46, 1, 48, 1, 50, 1, 49, 1, 51, 1, 49, 1, 50, 1, 52, 1, 54, 1, 53, 1, 55, 1, 53, 1, 54, 1, 56, 1, 58, 1, 57, 1, 59, 1, 57, 1, 58, 1, 60, 1, 62, 1, 61, 1, 63, 1, 61, 1, 62, 1, 64, 1, 66, 1, 65, 1, 67, 1, 65, 1, 66, 1, 68, 1, 70, 1, 69, 1, 71, 1, 69, 1, 70, 1, 72, 1, 74, 1, 73, 1, 75, 1, 73, 1, 74, 1, 76, 1, 78, 1, 77, 1, 79, 1, 77, 1, 78, 1, 80, 1, 82, 1, 81, 1, 83, 1, 81, 1, 82, 1, 84, 1, 86, 1, 85, 1, 87, 1, 85, 1, 86, 1, 88, 1, 90, 1, 89, 1, 91, 1, 89, 1, 90, 1, 92, 1, 94, 1, 93, 1, 95, 1, 93, 1, 94, 1, 96, 1, 98, 1, 97, 1, 99, 1, 97, 1, 98, 1, 100, 1, 102, 1, 101, 1, 103, 1, 101, 1, 102, 1, 104, 1, 106, 1, 105, 1, 107, 1, 105, 1, 106, 1, 108, 1, 110, 1, 109, 1, 111, 1, 109, 1, 110, 1, 112, 1, 114, 1, 113, 1, 115, 1, 113, 1, 114, 1, 116, 1, 118, 1, 117, 1, 119, 1, 117, 1, 118, 1, 120, 1, 122, 1, 121, 1, 123, 1, 121, 1, 122, 1, 124, 1, 126, 1, 125, 1, 127, 1, 125, 1, 126, 1, 128, 1, 130, 1, 129, 1, 131, 1, 129, 1, 130, 1, 132, 1, 134, 1, 133, 1, 135, 1, 133, 1, 134, 1, 136, 1, 138, 1, 137, 1, 139, 1, 137, 1, 138, 1, 140, 1, 142, 1, 141, 1, 143, 1, 141, 1, 142, 1, 144, 1, 146, 1, 145, 1, 147, 1, 145, 1, 146, 1, 148, 1, 150, 1, 149, 1, 151, 1, 149, 1, 150, 1, 152, 1, 154, 1, 153, 1, 155, 1, 153, 1, 154, 1, 156, 1, 158, 1, 157, 1, 159, 1, 157, 1, 158, 1, 160, 1, 162, 1, 161, 1, 163, 1, 161, 1, 162, 1, 164, 1, 166, 1, 165, 1, 167, 1, 165, 1, 166, 1, 168, 1, 170, 1, 169, 1, 171, 1, 169, 1, 170, 1, 172, 1, 174, 1, 173, 1, 175, 1, 173, 1, 174, 1),
+"material": SubResource("StandardMaterial3D_40qj1"),
+"name": "dirt",
+"primitive": 3,
+"vertex_count": 432,
+"vertex_data": PackedByteArray(205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 216, 144, 77, 222, 254, 37, 87, 58, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 62, 248, 139, 85, 199, 12, 27, 255, 63, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 62, 154, 149, 248, 196, 6, 41, 141, 58, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 176, 161, 216, 16, 173, 154, 167, 69, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 190, 6, 187, 107, 37, 32, 158, 114, 69, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 190, 169, 184, 176, 44, 12, 155, 255, 63, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 62, 248, 139, 169, 56, 12, 27, 255, 63, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 216, 144, 177, 33, 254, 37, 167, 69, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 62, 154, 149, 6, 59, 6, 41, 114, 69, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 176, 161, 216, 16, 1, 218, 87, 58, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 190, 169, 184, 249, 11, 242, 228, 255, 63, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 190, 6, 187, 154, 21, 248, 214, 141, 58, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 190, 248, 68, 107, 37, 21, 246, 152, 100, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 190, 248, 68, 154, 21, 21, 246, 164, 31, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 78, 94, 216, 16, 255, 255, 255, 31, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 190, 85, 71, 176, 44, 254, 255, 121, 114, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 190, 248, 68, 107, 37, 25, 245, 16, 15, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 78, 94, 216, 16, 175, 244, 87, 13, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 176, 161, 216, 16, 255, 191, 255, 63, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 190, 6, 187, 154, 21, 72, 191, 244, 68, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 190, 6, 187, 107, 37, 205, 182, 11, 59, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 216, 144, 77, 222, 81, 101, 167, 69, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 62, 107, 165, 248, 196, 222, 97, 114, 69, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 62, 175, 172, 85, 199, 242, 100, 255, 63, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 78, 94, 216, 16, 175, 244, 254, 82, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 190, 248, 68, 154, 21, 25, 245, 131, 84, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 190, 85, 71, 249, 11, 254, 255, 121, 50, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 62, 100, 106, 6, 59, 233, 9, 91, 96, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 62, 147, 90, 6, 59, 233, 9, 102, 27, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 38, 111, 177, 33, 0, 0, 255, 95, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 216, 144, 77, 222, 255, 63, 255, 63, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 62, 154, 149, 248, 196, 182, 64, 244, 68, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 62, 107, 165, 248, 196, 49, 73, 11, 59, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 62, 6, 116, 169, 56, 0, 0, 134, 77, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 62, 100, 106, 6, 59, 229, 10, 124, 43, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 38, 111, 177, 33, 79, 11, 0, 45, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 62, 147, 90, 6, 59, 229, 10, 238, 112, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 62, 79, 83, 169, 56, 0, 0, 134, 13, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 38, 111, 177, 33, 79, 11, 168, 114, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 190, 6, 187, 147, 218, 32, 158, 141, 58, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 190, 176, 161, 38, 239, 173, 154, 87, 58, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 190, 169, 184, 78, 211, 12, 155, 255, 63, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 190, 6, 187, 100, 234, 72, 191, 11, 59, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 190, 176, 161, 38, 239, 255, 191, 255, 63, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 190, 6, 187, 147, 218, 205, 182, 244, 68, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 190, 169, 184, 5, 244, 242, 228, 255, 63, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 190, 176, 161, 38, 239, 1, 218, 167, 69, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 190, 6, 187, 100, 234, 248, 214, 114, 69, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 62, 38, 111, 77, 222, 79, 11, 254, 82, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 62, 100, 106, 248, 196, 229, 10, 131, 84, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 62, 6, 116, 85, 199, 0, 0, 121, 50, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 62, 154, 149, 6, 59, 182, 64, 11, 59, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 216, 144, 177, 33, 255, 63, 255, 63, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 62, 107, 165, 6, 59, 49, 73, 244, 68, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 190, 248, 68, 147, 218, 25, 245, 238, 112, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 190, 85, 71, 78, 211, 254, 255, 134, 13, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 190, 78, 94, 38, 239, 175, 244, 168, 114, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 62, 147, 90, 248, 196, 233, 9, 152, 100, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 62, 100, 106, 248, 196, 233, 9, 164, 31, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 62, 38, 111, 77, 222, 0, 0, 255, 31, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 190, 85, 71, 5, 244, 254, 255, 134, 77, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 190, 248, 68, 100, 234, 25, 245, 124, 43, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 190, 78, 94, 38, 239, 175, 244, 0, 45, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 62, 79, 83, 85, 199, 0, 0, 121, 114, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 62, 147, 90, 248, 196, 229, 10, 16, 15, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 62, 38, 111, 77, 222, 79, 11, 87, 13, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 190, 248, 68, 100, 234, 21, 246, 91, 96, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 190, 248, 68, 147, 218, 21, 246, 102, 27, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 190, 78, 94, 38, 239, 255, 255, 255, 95, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 62, 107, 165, 6, 59, 222, 97, 141, 58, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 216, 144, 177, 33, 81, 101, 87, 58, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 62, 175, 172, 169, 56, 242, 100, 255, 63, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 255, 127, 0, 0, 0, 0, 255, 63, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 255, 127, 0, 0, 0, 0, 255, 63, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 255, 127, 0, 0, 0, 0, 255, 63, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 255, 127, 0, 0, 0, 0, 255, 63, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 190, 255, 255, 255, 127, 255, 127, 255, 63, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 190, 255, 255, 255, 127, 255, 127, 255, 63, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 62, 255, 255, 255, 127, 255, 127, 255, 63, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 62, 255, 255, 255, 127, 255, 127, 255, 63, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 190, 255, 127, 255, 255, 255, 255, 255, 63, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 62, 255, 127, 255, 255, 255, 255, 255, 63, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 190, 255, 127, 255, 255, 255, 255, 255, 63, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 255, 127, 255, 255, 255, 255, 255, 63, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 191, 255, 255, 255, 255, 255, 255, 255, 63, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 191, 255, 255, 255, 255, 255, 255, 255, 63, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 191, 255, 255, 255, 255, 255, 255, 255, 63, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 191, 255, 255, 255, 255, 255, 255, 255, 63, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 190, 0, 0, 255, 127, 255, 255, 0, 0, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 190, 0, 0, 255, 127, 255, 255, 0, 0, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 255, 127, 255, 255, 0, 0, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 62, 0, 0, 255, 127, 255, 255, 0, 0, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 63, 255, 127, 255, 127, 0, 0, 255, 63, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 63, 255, 127, 255, 127, 0, 0, 255, 63, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 63, 255, 127, 255, 127, 0, 0, 255, 63, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 63, 255, 127, 255, 127, 0, 0, 255, 63, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 62, 219, 146, 62, 89, 12, 27, 255, 63, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 62, 248, 139, 169, 56, 12, 27, 255, 63, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 62, 99, 161, 57, 91, 37, 49, 249, 68, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 62, 154, 149, 6, 59, 6, 41, 114, 69, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 62, 219, 146, 62, 89, 12, 27, 255, 63, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 62, 99, 161, 57, 91, 37, 49, 249, 68, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 63, 84, 150, 170, 105, 12, 27, 255, 63, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 62, 42, 167, 2, 107, 123, 49, 1, 67, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 62, 154, 149, 6, 59, 182, 64, 11, 59, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 62, 107, 165, 6, 59, 49, 73, 244, 68, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 62, 99, 161, 57, 91, 219, 56, 44, 59, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 62, 213, 185, 57, 91, 202, 80, 210, 68, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 62, 213, 185, 57, 91, 202, 80, 210, 68, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 62, 214, 195, 2, 107, 40, 82, 250, 66, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 62, 99, 161, 57, 91, 219, 56, 44, 59, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 62, 42, 167, 2, 107, 203, 51, 5, 61, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 190, 57, 219, 213, 57, 50, 167, 249, 68, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 190, 61, 217, 98, 70, 12, 155, 255, 63, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 190, 6, 187, 107, 37, 33, 158, 114, 69, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 190, 169, 184, 176, 44, 12, 155, 255, 63, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 190, 197, 36, 100, 33, 11, 246, 146, 88, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 190, 193, 38, 219, 18, 254, 255, 121, 50, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 190, 248, 68, 154, 21, 25, 245, 131, 84, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 190, 85, 71, 249, 11, 254, 255, 121, 50, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 190, 6, 187, 154, 21, 72, 191, 244, 68, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 190, 57, 219, 100, 33, 35, 199, 210, 68, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 190, 6, 187, 107, 37, 205, 182, 11, 59, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 190, 57, 219, 213, 57, 52, 175, 44, 59, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 62, 155, 94, 57, 91, 243, 9, 108, 39, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 62, 100, 106, 6, 59, 229, 10, 124, 43, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 62, 35, 109, 62, 89, 0, 0, 134, 77, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 62, 6, 116, 169, 56, 0, 0, 134, 77, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 62, 41, 70, 57, 91, 165, 9, 154, 23, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 62, 155, 94, 57, 91, 165, 9, 109, 92, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 62, 40, 60, 2, 107, 244, 5, 235, 22, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 62, 212, 88, 2, 107, 244, 5, 229, 89, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 62, 169, 44, 170, 105, 0, 0, 121, 114, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 62, 157, 57, 62, 89, 0, 0, 134, 13, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 62, 40, 60, 2, 107, 2, 6, 67, 106, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 62, 41, 70, 57, 91, 243, 9, 102, 108, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 190, 253, 20, 215, 67, 252, 249, 188, 21, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 190, 197, 36, 213, 57, 11, 246, 153, 19, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 190, 84, 22, 86, 83, 254, 255, 121, 114, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 190, 193, 38, 98, 70, 254, 255, 121, 114, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 190, 169, 184, 249, 11, 242, 228, 255, 63, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 190, 61, 217, 219, 18, 242, 228, 255, 63, 154, 153, 217, 62, 23, 127, 91, 60, 89, 248, 226, 190, 6, 187, 154, 21, 248, 214, 141, 58, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 190, 57, 219, 100, 33, 217, 206, 6, 59, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 62, 97, 198, 62, 89, 242, 100, 255, 63, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 62, 85, 211, 170, 105, 242, 100, 255, 63, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 62, 213, 185, 57, 91, 204, 88, 6, 59, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 62, 214, 195, 2, 107, 134, 84, 254, 60, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 190, 57, 219, 100, 33, 217, 206, 6, 59, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 190, 61, 217, 219, 18, 242, 228, 255, 63, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 190, 1, 235, 42, 39, 131, 206, 254, 60, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 191, 170, 233, 84, 22, 242, 228, 255, 63, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 190, 197, 36, 213, 57, 11, 246, 153, 19, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 190, 248, 68, 107, 37, 25, 245, 16, 15, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 190, 193, 38, 98, 70, 254, 255, 121, 114, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 190, 85, 71, 176, 44, 254, 255, 121, 114, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 62, 157, 57, 62, 89, 0, 0, 134, 13, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 62, 79, 83, 169, 56, 0, 0, 134, 13, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 62, 41, 70, 57, 91, 243, 9, 102, 108, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 62, 147, 90, 6, 59, 229, 10, 238, 112, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 190, 197, 36, 213, 57, 89, 246, 100, 104, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 190, 197, 36, 100, 33, 89, 246, 146, 35, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 190, 248, 68, 107, 37, 21, 246, 152, 100, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 190, 248, 68, 154, 21, 21, 246, 164, 31, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 190, 193, 38, 219, 18, 254, 255, 121, 50, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 190, 197, 36, 100, 33, 11, 246, 146, 88, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 191, 84, 22, 84, 22, 254, 255, 121, 50, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 190, 253, 20, 42, 39, 252, 249, 189, 88, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 190, 1, 235, 42, 39, 51, 204, 250, 66, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 190, 1, 235, 215, 67, 214, 173, 5, 61, 89, 248, 226, 62, 205, 204, 76, 61, 51, 51, 243, 190, 57, 219, 100, 33, 35, 199, 210, 68, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 190, 57, 219, 213, 57, 52, 175, 44, 59, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 62, 155, 94, 57, 91, 243, 9, 108, 39, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 62, 35, 109, 62, 89, 0, 0, 134, 77, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 62, 212, 88, 2, 107, 2, 6, 66, 39, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 63, 170, 105, 170, 105, 0, 0, 121, 50, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 62, 97, 198, 192, 166, 242, 100, 255, 63, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 62, 175, 172, 85, 199, 242, 100, 255, 63, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 62, 213, 185, 197, 164, 204, 88, 249, 68, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 62, 107, 165, 248, 196, 222, 97, 114, 69, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 190, 1, 235, 215, 67, 120, 171, 1, 67, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 190, 170, 233, 86, 83, 12, 155, 255, 63, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 190, 57, 219, 213, 57, 50, 167, 249, 68, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 190, 61, 217, 98, 70, 12, 155, 255, 63, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 190, 253, 20, 42, 39, 10, 250, 26, 38, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 190, 197, 36, 100, 33, 89, 246, 146, 35, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 190, 253, 20, 215, 67, 10, 250, 20, 105, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 190, 197, 36, 213, 57, 89, 246, 100, 104, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 62, 154, 149, 248, 196, 182, 64, 244, 68, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 62, 99, 161, 197, 164, 219, 56, 210, 68, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 62, 107, 165, 248, 196, 49, 73, 11, 59, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 62, 213, 185, 197, 164, 202, 80, 44, 59, 51, 51, 243, 190, 205, 204, 76, 61, 89, 248, 226, 62, 41, 70, 57, 91, 165, 9, 154, 23, 89, 248, 226, 190, 23, 127, 91, 60, 154, 153, 217, 62, 147, 90, 6, 59, 233, 9, 102, 27, 89, 248, 226, 190, 205, 204, 76, 61, 51, 51, 243, 62, 155, 94, 57, 91, 165, 9, 109, 92, 154, 153, 217, 190, 23, 127, 91, 60, 89, 248, 226, 62, 100, 106, 6, 59, 233, 9, 91, 96, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 62, 248, 139, 85, 199, 12, 27, 255, 63, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 62, 219, 146, 192, 166, 12, 27, 255, 63, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 62, 154, 149, 248, 196, 6, 41, 141, 58, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 62, 99, 161, 197, 164, 37, 49, 6, 59, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 62, 85, 211, 84, 150, 242, 100, 255, 63, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 62, 97, 198, 192, 166, 242, 100, 255, 63, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 62, 214, 195, 252, 148, 134, 84, 1, 67, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 62, 213, 185, 197, 164, 204, 88, 249, 68, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 63, 84, 150, 84, 150, 12, 27, 255, 63, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 62, 42, 167, 252, 148, 123, 49, 254, 60, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 62, 219, 146, 192, 166, 12, 27, 255, 63, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 62, 99, 161, 197, 164, 37, 49, 6, 59, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 62, 213, 185, 197, 164, 202, 80, 44, 59, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 62, 99, 161, 197, 164, 219, 56, 210, 68, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 62, 214, 195, 252, 148, 40, 82, 5, 61, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 62, 42, 167, 252, 148, 203, 51, 250, 66, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 190, 37, 209, 255, 255, 255, 255, 255, 63, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 190, 37, 209, 255, 255, 255, 255, 255, 63, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 190, 217, 174, 255, 255, 255, 255, 255, 63, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 190, 217, 174, 255, 255, 255, 255, 255, 63, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 190, 217, 174, 255, 255, 255, 255, 255, 63, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 190, 12, 155, 255, 255, 255, 255, 255, 63, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 190, 217, 174, 255, 255, 255, 255, 255, 63, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 190, 12, 155, 255, 255, 255, 255, 255, 63, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 190, 37, 81, 37, 209, 255, 255, 0, 0, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 190, 217, 46, 217, 174, 255, 255, 0, 0, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 62, 37, 81, 37, 209, 255, 255, 0, 0, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 62, 217, 46, 217, 174, 255, 255, 0, 0, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 191, 242, 228, 255, 255, 255, 255, 255, 63, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 191, 242, 228, 255, 255, 255, 255, 255, 63, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 190, 37, 209, 255, 255, 255, 255, 255, 63, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 190, 37, 209, 255, 255, 255, 255, 255, 63, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 190, 37, 81, 37, 209, 255, 255, 0, 0, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 62, 37, 81, 37, 209, 255, 255, 0, 0, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 190, 242, 100, 242, 228, 255, 255, 0, 0, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 62, 242, 100, 242, 228, 255, 255, 0, 0, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 190, 217, 46, 217, 174, 255, 255, 0, 0, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 190, 12, 27, 12, 155, 255, 255, 0, 0, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 62, 217, 46, 217, 174, 255, 255, 0, 0, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 62, 12, 27, 12, 155, 255, 255, 0, 0, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 190, 217, 174, 217, 46, 255, 127, 255, 63, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 190, 37, 209, 37, 81, 255, 127, 255, 63, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 62, 217, 174, 217, 46, 255, 127, 255, 63, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 62, 37, 209, 37, 81, 255, 127, 255, 63, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 190, 37, 209, 37, 81, 255, 127, 255, 63, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 190, 242, 228, 242, 100, 255, 127, 255, 63, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 62, 37, 209, 37, 81, 255, 127, 255, 63, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 62, 242, 228, 242, 100, 255, 127, 255, 63, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 12, 155, 12, 27, 255, 127, 255, 63, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 12, 155, 12, 27, 255, 127, 255, 63, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 62, 217, 174, 217, 46, 255, 127, 255, 63, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 190, 217, 174, 217, 46, 255, 127, 255, 63, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 190, 255, 255, 217, 174, 217, 174, 255, 63, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 190, 245, 244, 216, 181, 106, 173, 113, 62, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 190, 255, 255, 12, 155, 12, 155, 255, 63, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 190, 47, 244, 92, 164, 12, 155, 255, 63, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 190, 255, 255, 37, 209, 37, 209, 255, 63, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 190, 245, 244, 47, 213, 226, 206, 114, 62, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 190, 255, 255, 217, 174, 217, 174, 255, 63, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 190, 245, 244, 216, 181, 1, 174, 140, 65, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 190, 255, 255, 37, 209, 37, 209, 255, 63, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 191, 255, 255, 242, 228, 242, 228, 255, 63, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 190, 245, 244, 47, 213, 119, 207, 141, 65, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 191, 47, 244, 113, 231, 242, 228, 255, 63, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 190, 217, 174, 0, 0, 255, 255, 255, 63, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 190, 37, 209, 0, 0, 255, 255, 255, 63, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 190, 217, 174, 0, 0, 255, 255, 255, 63, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 190, 37, 209, 0, 0, 255, 255, 255, 63, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 190, 37, 209, 0, 0, 255, 255, 255, 63, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 190, 37, 209, 0, 0, 255, 255, 255, 63, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 191, 242, 228, 0, 0, 255, 255, 255, 63, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 191, 242, 228, 0, 0, 255, 255, 255, 63, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 12, 155, 0, 0, 255, 255, 255, 63, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 190, 217, 174, 0, 0, 255, 255, 255, 63, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 12, 155, 0, 0, 255, 255, 255, 63, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 190, 217, 174, 0, 0, 255, 255, 255, 63, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 62, 37, 81, 217, 46, 255, 255, 0, 0, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 190, 37, 81, 217, 46, 255, 255, 0, 0, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 242, 100, 12, 27, 255, 255, 0, 0, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 242, 100, 12, 27, 255, 255, 0, 0, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 190, 217, 46, 37, 81, 255, 255, 0, 0, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 190, 37, 81, 217, 46, 255, 255, 0, 0, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 62, 217, 46, 37, 81, 255, 255, 0, 0, 102, 102, 230, 190, 23, 127, 91, 60, 205, 204, 204, 62, 37, 81, 217, 46, 255, 255, 0, 0, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 190, 12, 27, 242, 100, 255, 255, 0, 0, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 190, 217, 46, 37, 81, 255, 255, 0, 0, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 62, 12, 27, 242, 100, 255, 255, 0, 0, 7, 36, 249, 190, 205, 204, 76, 61, 205, 204, 204, 62, 217, 46, 37, 81, 255, 255, 0, 0, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 62, 255, 127, 217, 46, 0, 0, 255, 63, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 255, 127, 12, 27, 0, 0, 255, 63, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 62, 255, 127, 217, 46, 0, 0, 255, 63, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 255, 127, 12, 27, 0, 0, 255, 63, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 62, 37, 209, 255, 127, 37, 81, 255, 63, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 62, 37, 209, 255, 127, 37, 81, 255, 63, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 62, 217, 174, 255, 127, 217, 46, 255, 63, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 62, 217, 174, 255, 127, 217, 46, 255, 63, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 63, 12, 155, 255, 127, 12, 27, 255, 63, 102, 102, 230, 62, 205, 204, 204, 61, 7, 36, 249, 62, 217, 174, 255, 127, 217, 46, 255, 63, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 63, 12, 155, 255, 127, 12, 27, 255, 63, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 62, 217, 174, 255, 127, 217, 46, 255, 63, 205, 204, 204, 190, 0, 0, 0, 63, 205, 204, 204, 62, 255, 127, 242, 228, 0, 0, 255, 63, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 62, 255, 127, 37, 209, 0, 0, 255, 63, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 255, 127, 242, 228, 0, 0, 255, 63, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 62, 255, 127, 37, 209, 0, 0, 255, 63, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 190, 242, 228, 12, 155, 255, 127, 255, 63, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 190, 37, 209, 217, 174, 255, 127, 255, 63, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 62, 242, 228, 12, 155, 255, 127, 255, 63, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 62, 37, 209, 217, 174, 255, 127, 255, 63, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 190, 12, 155, 242, 228, 255, 127, 255, 63, 205, 204, 204, 62, 0, 0, 0, 63, 205, 204, 204, 62, 12, 155, 242, 228, 255, 127, 255, 63, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 190, 217, 174, 37, 209, 255, 127, 255, 63, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 62, 217, 174, 37, 209, 255, 127, 255, 63, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 62, 255, 127, 217, 174, 0, 0, 255, 63, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 62, 255, 127, 217, 174, 0, 0, 255, 63, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 62, 255, 127, 37, 209, 0, 0, 255, 63, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 62, 255, 127, 37, 209, 0, 0, 255, 63, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 63, 255, 127, 12, 155, 0, 0, 255, 63, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 63, 255, 127, 12, 155, 0, 0, 255, 63, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 62, 255, 127, 217, 174, 0, 0, 255, 63, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 62, 255, 127, 217, 174, 0, 0, 255, 63, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 62, 255, 127, 37, 81, 0, 0, 255, 63, 205, 204, 204, 190, 23, 127, 91, 60, 102, 102, 230, 62, 255, 127, 217, 46, 0, 0, 255, 63, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 62, 255, 127, 37, 81, 0, 0, 255, 63, 205, 204, 204, 62, 23, 127, 91, 60, 102, 102, 230, 62, 255, 127, 217, 46, 0, 0, 255, 63, 205, 204, 204, 190, 205, 204, 76, 61, 7, 36, 249, 62, 255, 127, 37, 81, 0, 0, 255, 63, 205, 204, 204, 62, 205, 204, 76, 61, 7, 36, 249, 62, 255, 127, 37, 81, 0, 0, 255, 63, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 63, 255, 127, 242, 100, 0, 0, 255, 63, 205, 204, 204, 62, 205, 204, 204, 61, 0, 0, 0, 63, 255, 127, 242, 100, 0, 0, 255, 63, 0, 0, 0, 63, 205, 204, 204, 61, 205, 204, 204, 62, 242, 228, 255, 127, 242, 100, 255, 63, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 62, 242, 228, 255, 127, 242, 100, 255, 63, 7, 36, 249, 62, 205, 204, 204, 61, 102, 102, 230, 62, 37, 209, 255, 127, 37, 81, 255, 63, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 62, 37, 209, 255, 127, 37, 81, 255, 63, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 190, 37, 209, 217, 174, 255, 127, 255, 63, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 190, 217, 174, 37, 209, 255, 127, 255, 63, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 62, 37, 209, 217, 174, 255, 127, 255, 63, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 62, 217, 174, 37, 209, 255, 127, 255, 63, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 191, 0, 0, 242, 228, 255, 255, 121, 50, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 190, 0, 0, 37, 209, 255, 255, 146, 40, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 191, 0, 0, 242, 228, 255, 255, 121, 50, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 190, 0, 0, 37, 209, 255, 255, 146, 40, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 190, 0, 0, 217, 174, 255, 255, 108, 23, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 190, 0, 0, 217, 174, 255, 255, 108, 23, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 190, 0, 0, 12, 155, 255, 255, 134, 13, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 190, 0, 0, 12, 155, 255, 255, 134, 13, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 190, 0, 0, 37, 209, 255, 255, 146, 40, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 190, 0, 0, 37, 209, 255, 255, 146, 40, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 190, 0, 0, 217, 174, 255, 255, 108, 23, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 190, 0, 0, 217, 174, 255, 255, 108, 23, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 62, 12, 27, 255, 127, 0, 0, 134, 13, 0, 0, 0, 191, 205, 204, 204, 61, 205, 204, 204, 62, 12, 27, 255, 127, 0, 0, 134, 13, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 62, 217, 46, 255, 127, 0, 0, 108, 23, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 62, 217, 46, 255, 127, 0, 0, 108, 23, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 62, 217, 46, 255, 127, 0, 0, 108, 23, 7, 36, 249, 190, 205, 204, 204, 61, 102, 102, 230, 62, 217, 46, 255, 127, 0, 0, 108, 23, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 62, 37, 81, 255, 127, 0, 0, 146, 40, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 62, 37, 81, 255, 127, 0, 0, 146, 40, 102, 102, 230, 190, 205, 204, 204, 61, 7, 36, 249, 62, 37, 81, 255, 127, 0, 0, 146, 40, 205, 204, 204, 190, 205, 204, 204, 61, 0, 0, 0, 63, 242, 100, 255, 127, 0, 0, 121, 50, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 62, 37, 81, 255, 127, 0, 0, 146, 40, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 63, 242, 100, 255, 127, 0, 0, 121, 50, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 190, 57, 219, 41, 198, 50, 167, 6, 59, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 190, 6, 187, 147, 218, 33, 158, 141, 58, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 190, 61, 217, 156, 185, 12, 155, 255, 63, 102, 102, 230, 62, 7, 36, 249, 62, 205, 204, 204, 190, 169, 184, 78, 211, 12, 155, 255, 63, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 190, 6, 187, 100, 234, 72, 191, 11, 59, 89, 248, 226, 62, 7, 36, 249, 62, 154, 153, 217, 190, 6, 187, 147, 218, 205, 182, 244, 68, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 190, 57, 219, 154, 222, 35, 199, 44, 59, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 190, 57, 219, 41, 198, 52, 175, 210, 68, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 190, 61, 217, 35, 237, 242, 228, 255, 63, 205, 204, 204, 62, 7, 36, 249, 62, 102, 102, 230, 190, 169, 184, 5, 244, 242, 228, 255, 63, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 190, 57, 219, 154, 222, 217, 206, 249, 68, 154, 153, 217, 62, 7, 36, 249, 62, 89, 248, 226, 190, 6, 187, 100, 234, 248, 214, 114, 69, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 190, 245, 244, 216, 181, 106, 173, 113, 62, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 190, 57, 219, 41, 198, 50, 167, 6, 59, 0, 0, 0, 63, 205, 204, 204, 62, 205, 204, 204, 190, 47, 244, 92, 164, 12, 155, 255, 63, 7, 36, 249, 62, 102, 102, 230, 62, 205, 204, 204, 190, 61, 217, 156, 185, 12, 155, 255, 63, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 62, 212, 88, 252, 148, 2, 6, 189, 88, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 63, 170, 105, 84, 150, 0, 0, 121, 50, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 62, 155, 94, 197, 164, 243, 9, 146, 88, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 62, 35, 109, 192, 166, 0, 0, 121, 50, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 62, 79, 83, 85, 199, 0, 0, 121, 114, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 62, 157, 57, 192, 166, 0, 0, 121, 114, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 62, 147, 90, 248, 196, 229, 10, 16, 15, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 62, 41, 70, 197, 164, 243, 9, 153, 19, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 190, 197, 36, 41, 198, 89, 246, 154, 23, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 190, 248, 68, 147, 218, 21, 246, 102, 27, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 190, 197, 36, 154, 222, 89, 246, 109, 92, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 190, 248, 68, 100, 234, 21, 246, 91, 96, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 62, 157, 57, 192, 166, 0, 0, 121, 114, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 62, 169, 44, 84, 150, 0, 0, 121, 114, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 62, 41, 70, 197, 164, 243, 9, 153, 19, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 62, 40, 60, 252, 148, 2, 6, 188, 21, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 190, 245, 244, 47, 213, 119, 207, 141, 65, 205, 204, 204, 62, 205, 204, 204, 62, 0, 0, 0, 191, 47, 244, 113, 231, 242, 228, 255, 63, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 190, 57, 219, 154, 222, 217, 206, 249, 68, 205, 204, 204, 62, 102, 102, 230, 62, 7, 36, 249, 190, 61, 217, 35, 237, 242, 228, 255, 63, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 190, 197, 36, 41, 198, 11, 246, 102, 108, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 190, 193, 38, 156, 185, 254, 255, 134, 13, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 190, 248, 68, 147, 218, 25, 245, 238, 112, 102, 102, 230, 190, 7, 36, 249, 62, 205, 204, 204, 190, 85, 71, 78, 211, 254, 255, 134, 13, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 62, 41, 70, 197, 164, 165, 9, 100, 104, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 62, 155, 94, 197, 164, 165, 9, 146, 35, 89, 248, 226, 190, 7, 36, 249, 62, 154, 153, 217, 62, 147, 90, 248, 196, 233, 9, 152, 100, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 62, 100, 106, 248, 196, 233, 9, 164, 31, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 190, 197, 36, 154, 222, 11, 246, 108, 39, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 190, 248, 68, 100, 234, 25, 245, 124, 43, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 190, 193, 38, 35, 237, 254, 255, 134, 77, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 190, 85, 71, 5, 244, 254, 255, 134, 77, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 190, 253, 20, 212, 216, 10, 250, 229, 89, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 190, 253, 20, 39, 188, 10, 250, 235, 22, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 190, 197, 36, 154, 222, 89, 246, 109, 92, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 190, 197, 36, 41, 198, 89, 246, 154, 23, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 62, 155, 94, 197, 164, 243, 9, 146, 88, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 62, 35, 109, 192, 166, 0, 0, 121, 50, 154, 153, 217, 190, 7, 36, 249, 62, 89, 248, 226, 62, 100, 106, 248, 196, 229, 10, 131, 84, 205, 204, 204, 190, 7, 36, 249, 62, 102, 102, 230, 62, 6, 116, 85, 199, 0, 0, 121, 50, 102, 102, 230, 62, 23, 127, 91, 60, 205, 204, 204, 62, 175, 172, 169, 56, 242, 100, 255, 63, 7, 36, 249, 62, 205, 204, 76, 61, 205, 204, 204, 62, 97, 198, 62, 89, 242, 100, 255, 63, 89, 248, 226, 62, 23, 127, 91, 60, 154, 153, 217, 62, 107, 165, 6, 59, 222, 97, 141, 58, 51, 51, 243, 62, 205, 204, 76, 61, 89, 248, 226, 62, 213, 185, 57, 91, 204, 88, 6, 59, 102, 102, 230, 62, 205, 204, 204, 62, 7, 36, 249, 190, 245, 244, 47, 213, 226, 206, 114, 62, 89, 248, 226, 62, 102, 102, 230, 62, 51, 51, 243, 190, 57, 219, 154, 222, 35, 199, 44, 59, 7, 36, 249, 62, 205, 204, 204, 62, 102, 102, 230, 190, 245, 244, 216, 181, 1, 174, 140, 65, 51, 51, 243, 62, 102, 102, 230, 62, 89, 248, 226, 190, 57, 219, 41, 198, 52, 175, 210, 68, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 190, 253, 20, 39, 188, 252, 249, 67, 106, 0, 0, 0, 191, 205, 204, 204, 62, 205, 204, 204, 190, 84, 22, 168, 172, 254, 255, 134, 13, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 190, 197, 36, 41, 198, 11, 246, 102, 108, 7, 36, 249, 190, 102, 102, 230, 62, 205, 204, 204, 190, 193, 38, 156, 185, 254, 255, 134, 13, 51, 51, 243, 190, 102, 102, 230, 62, 89, 248, 226, 62, 41, 70, 197, 164, 165, 9, 100, 104, 7, 36, 249, 190, 205, 204, 204, 62, 102, 102, 230, 62, 40, 60, 252, 148, 244, 5, 20, 105, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 62, 155, 94, 197, 164, 165, 9, 146, 35, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 62, 212, 88, 252, 148, 244, 5, 26, 38, 205, 204, 204, 190, 205, 204, 204, 62, 0, 0, 0, 191, 84, 22, 170, 233, 254, 255, 121, 50, 102, 102, 230, 190, 205, 204, 204, 62, 7, 36, 249, 190, 253, 20, 212, 216, 252, 249, 66, 39, 205, 204, 204, 190, 102, 102, 230, 62, 7, 36, 249, 190, 193, 38, 35, 237, 254, 255, 134, 77, 89, 248, 226, 190, 102, 102, 230, 62, 51, 51, 243, 190, 197, 36, 154, 222, 11, 246, 108, 39)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_gqkst")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_l34xw"]
+points = PackedVector3Array(-0.400059, 0.0999902, -0.5, -0.400059, 0.399961, -0.5, 0.399961, 0.0999902, -0.5, -0.400059, 0.0499706, -0.486688, -0.450078, 0.0999902, -0.486688, -0.400059, 0.44998, -0.486688, 0.399961, 0.399961, -0.5, -0.450078, 0.399961, -0.486688, 0.399961, 0.0499706, -0.486688, 0.44998, 0.0999902, -0.486688, -0.400059, 0.0133614, -0.450078, -0.443324, 0.0499706, -0.475039, -0.486688, 0.0999902, -0.450078, -0.400059, 0.48659, -0.450078, 0.399961, 0.44998, -0.486688, -0.443324, 0.44998, -0.475039, 0.44998, 0.399961, -0.486688, -0.486688, 0.399961, -0.450078, 0.443226, 0.0499706, -0.475039, 0.399961, 0.0133614, -0.450078, 0.48659, 0.0999902, -0.450078, -0.42502, 0.0133614, -0.443324, -0.400059, 0, -0.400059, -0.475039, 0.0499706, -0.443324, -0.486688, 0.0499706, -0.400059, -0.5, 0.0999902, -0.400059, -0.400059, 0.5, -0.400059, 0.399961, 0.48659, -0.450078, -0.42502, 0.48659, -0.443324, 0.443226, 0.44998, -0.475039, -0.475039, 0.44998, -0.443324, 0.48659, 0.399961, -0.450078, -0.5, 0.399961, -0.400059, -0.486688, 0.44998, -0.400059, 0.424922, 0.0133614, -0.443324, 0.474941, 0.0499706, -0.443324, 0.399961, 0, -0.400059, 0.5, 0.0999902, -0.400059, 0.48659, 0.0499706, -0.400059, -0.443324, 0.0133614, -0.42502, -0.400059, 0, 0.399961, -0.450078, 0.0133614, -0.400059, -0.486688, 0.0499706, 0.399961, -0.5, 0.0999902, 0.399961, -0.443324, 0.48659, -0.42502, -0.450078, 0.48659, -0.400059, -0.400059, 0.5, 0.399961, 0.399961, 0.5, -0.400059, 0.424922, 0.48659, -0.443324, 0.474941, 0.44998, -0.443324, 0.48659, 0.44998, -0.400059, 0.5, 0.399961, -0.400059, -0.5, 0.399961, 0.399961, -0.486688, 0.44998, 0.399961, 0.443226, 0.0133614, -0.42502, 0.44998, 0.0133614, -0.400059, 0.399961, 0, 0.399961, 0.5, 0.0999902, 0.399961, 0.48659, 0.0499706, 0.399961, -0.400059, 0.0133614, 0.44998, -0.42502, 0.0133614, 0.443226, -0.443324, 0.0133614, 0.424922, -0.450078, 0.0133614, 0.399961, -0.486688, 0.0999902, 0.44998, -0.475039, 0.0499706, 0.443226, -0.450078, 0.48659, 0.399961, -0.443324, 0.48659, 0.424922, -0.42502, 0.48659, 0.443226, -0.400059, 0.48659, 0.44998, 0.399961, 0.5, 0.399961, 0.44998, 0.48659, -0.400059, 0.443226, 0.48659, -0.42502, 0.48659, 0.44998, 0.399961, 0.5, 0.399961, 0.399961, -0.486688, 0.399961, 0.44998, -0.475039, 0.44998, 0.443226, 0.44998, 0.0133614, 0.399961, 0.443226, 0.0133614, 0.424922, 0.424922, 0.0133614, 0.443226, 0.399961, 0.0133614, 0.44998, 0.48659, 0.0999902, 0.44998, 0.474941, 0.0499706, 0.443226, -0.400059, 0.0499706, 0.48659, -0.443324, 0.0499706, 0.474941, -0.450078, 0.0999902, 0.48659, -0.443324, 0.44998, 0.474941, -0.400059, 0.44998, 0.48659, 0.399961, 0.48659, 0.44998, 0.424922, 0.48659, 0.443226, 0.443226, 0.48659, 0.424922, 0.44998, 0.48659, 0.399961, 0.474941, 0.44998, 0.443226, 0.48659, 0.399961, 0.44998, -0.450078, 0.399961, 0.48659, 0.443226, 0.0499706, 0.474941, 0.399961, 0.0499706, 0.48659, 0.44998, 0.0999902, 0.48659, -0.400059, 0.0999902, 0.5, -0.400059, 0.399961, 0.5, 0.399961, 0.44998, 0.48659, 0.443226, 0.44998, 0.474941, 0.44998, 0.399961, 0.48659, 0.399961, 0.0999902, 0.5, 0.399961, 0.399961, 0.5)
+
+[node name="Tiles" type="Node3D"]
+
+[node name="arrow" parent="." instance=ExtResource("1_8wlsd")]
+visible = false
+
+[node name="arrows" parent="." instance=ExtResource("2_tscaa")]
+visible = false
+
+[node name="barrel" parent="." instance=ExtResource("3_6vthc")]
+visible = false
+
+[node name="block" parent="." instance=ExtResource("4_ib2ki")]
+visible = false
+
+[node name="blockCliff" parent="." instance=ExtResource("5_qm0no")]
+visible = false
+
+[node name="blockCliffCorner" parent="." instance=ExtResource("6_jrsxi")]
+visible = false
+
+[node name="blockCornerLarge" parent="." instance=ExtResource("7_44sfb")]
+visible = false
+
+[node name="blockCornerSmall" parent="." instance=ExtResource("8_kdaxg")]
+visible = false
+
+[node name="blockCurve" parent="." instance=ExtResource("9_0ewuc")]
+visible = false
+
+[node name="blockCurveHalf" parent="." instance=ExtResource("10_tpewg")]
+visible = false
+
+[node name="blockCurveLow" parent="." instance=ExtResource("11_y80e0")]
+visible = false
+
+[node name="blockDirt" parent="." instance=ExtResource("12_irvwc")]
+visible = false
+
+[node name="blockDirtHalf" parent="." instance=ExtResource("13_iljnh")]
+visible = false
+
+[node name="blockDirtRamp" parent="." instance=ExtResource("14_wgdra")]
+visible = false
+
+[node name="blockDirtRampHalf" parent="." instance=ExtResource("15_1ycep")]
+visible = false
+
+[node name="blockEnd" parent="." instance=ExtResource("16_0n4gu")]
+visible = false
+
+[node name="blockHalf" parent="." instance=ExtResource("17_5a17p")]
+visible = false
+
+[node name="blockHexagon" parent="." instance=ExtResource("18_4cnry")]
+visible = false
+
+[node name="blockHexagonLow" parent="." instance=ExtResource("19_l6fds")]
+visible = false
+
+[node name="blockLarge" parent="." instance=ExtResource("20_owmvb")]
+visible = false
+
+[node name="blockLevel" parent="." instance=ExtResource("21_3rbgf")]
+visible = false
+
+[node name="blockLong" parent="." instance=ExtResource("22_lgity")]
+visible = false
+
+[node name="blockMoving" parent="." instance=ExtResource("23_af2tw")]
+visible = false
+
+[node name="blockMovingBlue" parent="." instance=ExtResource("24_603nh")]
+visible = false
+
+[node name="blockMovingLarge" parent="." instance=ExtResource("25_sl1rm")]
+visible = false
+
+[node name="blockQuarter" parent="." instance=ExtResource("26_k1gwg")]
+visible = false
+
+[node name="blockRounded" parent="." instance=ExtResource("27_vye22")]
+visible = false
+
+[node name="blockRoundedLarge" parent="." instance=ExtResource("28_dpcu3")]
+visible = false
+
+[node name="blockRoundedLong" parent="." instance=ExtResource("29_qu6b2")]
+visible = false
+
+[node name="blockRoundedLow" type="Node3D" parent="."]
+
+[node name="blockRoundedLow" type="MeshInstance3D" parent="blockRoundedLow"]
+mesh = SubResource("ArrayMesh_pnwt8")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="blockRoundedLow/blockRoundedLow"]
+collision_layer = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="blockRoundedLow/blockRoundedLow/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_l34xw")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="blockRoundedLow"]
+
+[node name="blockRoundedLowLong" parent="." instance=ExtResource("31_asoi5")]
+visible = false
+
+[node name="blockSlope" parent="." instance=ExtResource("32_n3yjk")]
+visible = false
+
+[node name="blockSlopeHalf" parent="." instance=ExtResource("33_4g3je")]
+visible = false
+
+[node name="blockSnow" parent="." instance=ExtResource("34_57c8o")]
+visible = false
+
+[node name="blockSnowCliff" parent="." instance=ExtResource("35_07pa6")]
+visible = false
+
+[node name="blockSnowCliffCorner" parent="." instance=ExtResource("36_j3oru")]
+visible = false
+
+[node name="blockSnowCornerLarge" parent="." instance=ExtResource("37_g5sie")]
+visible = false
+
+[node name="blockSnowCornerSmall" parent="." instance=ExtResource("38_acat2")]
+visible = false
+
+[node name="blockSnowCurve" parent="." instance=ExtResource("39_vabx3")]
+visible = false
+
+[node name="blockSnowCurveHalf" parent="." instance=ExtResource("40_0te38")]
+visible = false
+
+[node name="blockSnowCurveLow" parent="." instance=ExtResource("41_s7oeq")]
+visible = false
+
+[node name="blockSnowEnd" parent="." instance=ExtResource("42_ug6n8")]
+visible = false
+
+[node name="blockSnowHalf" parent="." instance=ExtResource("43_bg1pv")]
+visible = false
+
+[node name="blockSnowHexagon" parent="." instance=ExtResource("44_35aex")]
+visible = false
+
+[node name="blockSnowHexagonLow" parent="." instance=ExtResource("45_xuxse")]
+visible = false
+
+[node name="blockSnowLarge" parent="." instance=ExtResource("46_v61mv")]
+visible = false
+
+[node name="blockSnowLevel" parent="." instance=ExtResource("47_x7kb1")]
+visible = false
+
+[node name="blockSnowLong" parent="." instance=ExtResource("48_aclor")]
+visible = false
+
+[node name="blockSnowQuarter" parent="." instance=ExtResource("49_u1cuc")]
+visible = false
+
+[node name="blockSnowRounded" parent="." instance=ExtResource("50_o0ga6")]
+visible = false
+
+[node name="blockSnowRoundedLarge" parent="." instance=ExtResource("51_xvlpc")]
+visible = false
+
+[node name="blockSnowRoundedLong" parent="." instance=ExtResource("52_1etn2")]
+visible = false
+
+[node name="blockSnowRoundedLow" parent="." instance=ExtResource("53_lhax2")]
+visible = false
+
+[node name="blockSnowRoundedLowLong" parent="." instance=ExtResource("54_slwcq")]
+visible = false
+
+[node name="blockSnowSlope" parent="." instance=ExtResource("55_2oynn")]
+visible = false
+
+[node name="blockSnowSlopeHalf" parent="." instance=ExtResource("56_plajb")]
+visible = false
+
+[node name="bomb" parent="." instance=ExtResource("57_hknm1")]
+visible = false
+
+[node name="bridge" parent="." instance=ExtResource("58_i60f1")]
+visible = false
+
+[node name="bridgeHalf" parent="." instance=ExtResource("59_6rhbc")]
+visible = false
+
+[node name="bridgeRamp" parent="." instance=ExtResource("60_hwi0t")]
+visible = false
+
+[node name="buttonRound" parent="." instance=ExtResource("61_b8oap")]
+visible = false
+
+[node name="buttonSquare" parent="." instance=ExtResource("62_qwe3c")]
+visible = false
+
+[node name="chest" parent="." instance=ExtResource("63_ks4tk")]
+visible = false
+
+[node name="coinBronze" parent="." instance=ExtResource("64_4ukm2")]
+visible = false
+
+[node name="coinGold" parent="." instance=ExtResource("65_bhpq3")]
+visible = false
+
+[node name="coinSilver" parent="." instance=ExtResource("66_h7il0")]
+visible = false
+
+[node name="crate" parent="." instance=ExtResource("67_i4p8s")]
+visible = false
+
+[node name="crateItem" parent="." instance=ExtResource("68_8epr5")]
+visible = false
+
+[node name="crateItemStrong" parent="." instance=ExtResource("69_yrl3x")]
+visible = false
+
+[node name="crateStrong" parent="." instance=ExtResource("70_0qh6a")]
+visible = false
+
+[node name="doorClosed" parent="." instance=ExtResource("71_xsehm")]
+visible = false
+
+[node name="doorLargeClosed" parent="." instance=ExtResource("72_4wurc")]
+visible = false
+
+[node name="doorLargeOpen" parent="." instance=ExtResource("73_md3k1")]
+visible = false
+
+[node name="doorOpen" parent="." instance=ExtResource("74_hhtms")]
+visible = false
+
+[node name="fence" parent="." instance=ExtResource("75_lfyvc")]
+visible = false
+
+[node name="fenceBroken" parent="." instance=ExtResource("76_a04bj")]
+visible = false
+
+[node name="fenceCorner" parent="." instance=ExtResource("77_y324o")]
+visible = false
+
+[node name="fenceCornerCurved" parent="." instance=ExtResource("78_6y1yl")]
+visible = false
+
+[node name="fenceLow" parent="." instance=ExtResource("79_n2o3x")]
+visible = false
+
+[node name="fenceLowBroken" parent="." instance=ExtResource("80_wwpay")]
+visible = false
+
+[node name="fenceLowCorner" parent="." instance=ExtResource("81_6ux1n")]
+visible = false
+
+[node name="fenceLowCornerCurved" parent="." instance=ExtResource("82_bgk40")]
+visible = false
+
+[node name="flag" parent="." instance=ExtResource("83_wn0wc")]
+visible = false
+
+[node name="flowers" parent="." instance=ExtResource("84_nkbkw")]
+visible = false
+
+[node name="flowersLow" parent="." instance=ExtResource("85_440wm")]
+visible = false
+
+[node name="heart" parent="." instance=ExtResource("86_tkvqk")]
+visible = false
+
+[node name="hedge" parent="." instance=ExtResource("87_2t0u5")]
+visible = false
+
+[node name="hedgeCorner" parent="." instance=ExtResource("88_kr7nh")]
+visible = false
+
+[node name="jewel" parent="." instance=ExtResource("89_56li8")]
+visible = false
+
+[node name="key" parent="." instance=ExtResource("90_dhb3t")]
+visible = false
+
+[node name="ladder" parent="." instance=ExtResource("91_iokbf")]
+visible = false
+
+[node name="ladderBroken" parent="." instance=ExtResource("92_k83co")]
+visible = false
+
+[node name="ladderLong" parent="." instance=ExtResource("93_rvbc6")]
+visible = false
+
+[node name="lever" parent="." instance=ExtResource("94_6edrl")]
+visible = false
+
+[node name="lock" parent="." instance=ExtResource("95_hlg1t")]
+visible = false
+
+[node name="mushrooms" parent="." instance=ExtResource("96_mnmqw")]
+visible = false
+
+[node name="plant" parent="." instance=ExtResource("97_rxkgf")]
+visible = false
+
+[node name="platform" parent="." instance=ExtResource("98_4i7x3")]
+visible = false
+
+[node name="poles" parent="." instance=ExtResource("99_p53bf")]
+visible = false
+
+[node name="rocks" parent="." instance=ExtResource("100_s8eii")]
+visible = false
+
+[node name="saw" parent="." instance=ExtResource("101_qq4ib")]
+visible = false
+
+[node name="sign" parent="." instance=ExtResource("102_8c6pm")]
+visible = false
+
+[node name="spikeBlock" parent="." instance=ExtResource("103_72d6p")]
+visible = false
+
+[node name="spikeBlockWide" parent="." instance=ExtResource("104_8dtqr")]
+visible = false
+
+[node name="spikes" parent="." instance=ExtResource("105_me56r")]
+visible = false
+
+[node name="spikesHidden" parent="." instance=ExtResource("106_16w8w")]
+visible = false
+
+[node name="spikesLarge" parent="." instance=ExtResource("107_va11l")]
+visible = false
+
+[node name="stones" parent="." instance=ExtResource("108_p23n1")]
+visible = false
+
+[node name="tree" parent="." instance=ExtResource("109_vlqjm")]
+visible = false
+
+[node name="treePine" parent="." instance=ExtResource("110_x414c")]
+visible = false
+
+[node name="treePineSmall" parent="." instance=ExtResource("111_32vux")]
+visible = false
+
+[node name="treePineSmallSnow" parent="." instance=ExtResource("112_isyfm")]
+visible = false
+
+[node name="treePineSnow" parent="." instance=ExtResource("113_wfacp")]
+visible = false
+
+[node name="treeSnow" parent="." instance=ExtResource("114_1wgr3")]
+visible = false

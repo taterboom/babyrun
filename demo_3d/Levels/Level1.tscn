@@ -1,0 +1,82 @@
+[gd_scene load_steps=9 format=3 uid="uid://co2jxdutilomi"]
+
+[ext_resource type="PackedScene" uid="uid://5ruceslkvtm2" path="res://demo_3d/youdao.tscn" id="1_ffk4f"]
+[ext_resource type="MeshLibrary" uid="uid://bllqv3d8f1eig" path="res://demo_3d/tiles_2.tres" id="2_xjqh6"]
+[ext_resource type="PackedScene" uid="uid://7lsjrrr2lp2n" path="res://demo_3d/Block.tscn" id="3_xp4ht"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4bxu5"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_88dlm"]
+sky_material = SubResource("ProceduralSkyMaterial_4bxu5")
+
+[sub_resource type="Environment" id="Environment_05kg3"]
+background_mode = 2
+sky = SubResource("Sky_88dlm")
+tonemap_mode = 2
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7hon7"]
+size = Vector3(2, 2, 1)
+
+[sub_resource type="Theme" id="Theme_1h4fj"]
+default_font_size = 100
+
+[node name="Level1" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_05kg3")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="CameraMarker" type="Node3D" parent="."]
+transform = Transform3D(0.866025, -0.25, 0.433013, 3.02058e-16, 0.866025, 0.5, -0.5, -0.433013, 0.75, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CameraMarker"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.08165e-12, 10)
+projection = 1
+size = 15.0
+near = 1.0
+far = 30.0
+
+[node name="youdao" parent="." instance=ExtResource("1_ffk4f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.463675, 0)
+
+[node name="GridMap" type="GridMap" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.510285, 0)
+mesh_library = ExtResource("2_xjqh6")
+cell_size = Vector3(0.5, 0.25, 0.5)
+collision_layer = 3
+data = {
+"cells": PackedInt32Array(65535, 65535, 131101, 0, 65535, 131101, 0, 0, 131101, 65535, 0, 131101, 65535, 65518, 131101, 65535, 65519, 131101, 65535, 65520, 131101, 65535, 65521, 131101, 65535, 65522, 131101, 65535, 65523, 131101, 65535, 65524, 131101, 65535, 65525, 131101, 65535, 65526, 131101, 65535, 65527, 131101, 65535, 65528, 131101, 65535, 65529, 131101, 65535, 65530, 131101, 65535, 65531, 131101, 65535, 65532, 131101, 65535, 65533, 131101, 65535, 65534, 131101, 65535, 1, 131101, 65535, 2, 131101, 65535, 3, 131101, 0, 65518, 131101, 0, 65519, 82, 0, 65520, 131101, 0, 65521, 131101, 0, 65522, 131101, 0, 65523, 131101, 0, 65524, 131101, 0, 65525, 131101, 0, 65526, 131101, 0, 65527, 131101, 0, 65528, 131101, 0, 65529, 131101, 0, 65530, 131101, 0, 65531, 131101, 0, 65532, 131101, 0, 65533, 131101, 0, 65534, 131101, 0, 1, 131101, 0, 2, 131101, 0, 3, 131101)
+}
+metadata/_editor_floor_ = Vector3(0, 0, 0)
+
+[node name="Destination" type="Area3D" parent="." groups=["Destination"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.71664)
+collision_layer = 5
+collision_mask = 5
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Destination"]
+shape = SubResource("BoxShape3D_7hon7")
+
+[node name="Label" type="Label" parent="." groups=["SuccessLabel"]]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -61.0
+offset_top = -13.5
+offset_right = 61.0
+offset_bottom = 13.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_1h4fj")
+text = "成功啦！ 🚀🚀🚀"
+
+[node name="Block" parent="." instance=ExtResource("3_xp4ht")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.226272, 0, -2.53827)
