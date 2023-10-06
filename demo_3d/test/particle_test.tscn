@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://b6hyon3x1bpip"]
+
+[sub_resource type="Curve" id="Curve_a2by2"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.27191, 1), 0.0, 0.0, 0, 0, Vector2(0.640112, 0.854691), -0.643741, -0.643741, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_8t4dr"]
+curve = SubResource("Curve_a2by2")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_sg4ut"]
+particle_flag_align_y = true
+direction = Vector3(2.08165e-12, 1, 2.08165e-12)
+spread = 61.68
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 1.0
+initial_velocity_max = 1.0
+linear_accel_min = -1.5
+linear_accel_max = -1.5
+scale_curve = SubResource("CurveTexture_8t4dr")
+
+[sub_resource type="BoxMesh" id="BoxMesh_h7exo"]
+size = Vector3(0.1, 0.1, 0.1)
+
+[node name="ParticleTest" type="Node3D"]
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+speed_scale = 2.0
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_sg4ut")
+draw_pass_1 = SubResource("BoxMesh_h7exo")

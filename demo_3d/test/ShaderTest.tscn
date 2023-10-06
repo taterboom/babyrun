@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://bw388ptceiuum"]
+
+[ext_resource type="Shader" uid="uid://dsy56722npn6o" path="res://demo_3d/test/ShaderTest.tres" id="1_fqrbu"]
+[ext_resource type="PackedScene" uid="uid://sjwy0u2q4onf" path="res://demo_3d/Models/GLTF format/barrel.glb" id="2_2wfor"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_crutv"]
+render_priority = 0
+shader = ExtResource("1_fqrbu")
+shader_parameter/ColorParameter = Color(1.1e-05, 0.660699, 0.890675, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_3a38c"]
+material = SubResource("ShaderMaterial_crutv")
+subdivide_width = 32
+subdivide_depth = 32
+
+[node name="ShaderTest" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_3a38c")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.75564, 0)
+
+[node name="barrel" parent="." instance=ExtResource("2_2wfor")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.143053, 0)

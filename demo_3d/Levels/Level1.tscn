@@ -35,7 +35,7 @@ shadow_enabled = true
 transform = Transform3D(0.866025, -0.25, 0.433013, 3.02058e-16, 0.866025, 0.5, -0.5, -0.433013, 0.75, 0, 0, 0)
 
 [node name="Camera3D" type="Camera3D" parent="CameraMarker"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.08165e-12, 10)
+transform = Transform3D(1, -2.73283e-07, -4.47034e-08, 1.38313e-08, 1, 5.3883e-07, 9.9476e-14, 1.85315e-09, 1, 1.49012e-07, -1.3411e-07, 10)
 projection = 1
 size = 15.0
 near = 1.0
@@ -80,3 +80,4 @@ text = "成功啦！ 🚀🚀🚀"
 
 [node name="Block" parent="." instance=ExtResource("3_xp4ht")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.226272, 0, -2.53827)
+rotation_edit_mode = 1
